@@ -199,7 +199,7 @@ class Rule:
         return vs
 
 
-# The shared rule vocabulary. Java `io.phonin.fuzzy.FuzzyRules` mirrors these names.
+# The shared rule vocabulary. Java `dev.vfyjxf.phonin.fuzzy.FuzzyRules` mirrors these names.
 RULES = [
     # Mandarin
     Rule("FUZZY_ZH_Z", System.MANDARIN, initial_swap("zh", "z")),
