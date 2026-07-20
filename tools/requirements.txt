@@ -1,0 +1,5 @@
+# Data-pipeline dependencies (Python). The runtime engine is Java; this is tooling only.
+# Downloads use the standard library (urllib.request), so the only third-party dep is pypinyin,
+# which provides the Mandarin dict (with polyphone disambiguation), numeric/diacritic tones,
+# toneless forms, and Zhuyin (Bopomofo) output.
+pypinyin>=0.50

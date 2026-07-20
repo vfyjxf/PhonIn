@@ -1,0 +1,755 @@
+# golden parity table for FUZZY_N_L: surface -> variants (oracle: fuzzy.py)
+# one line per real surface; variants is a sorted comma-list (may be empty)
+# surface	variants
+a	
+aa	
+aai	
+aak	
+aam	
+aan	
+aang	
+aap	
+aat	
+aau	
+ai	
+ak	
+am	
+an	
+ang	
+ap	
+at	
+au	
+baa	
+baai	
+baak	
+baan	
+baang	
+baat	
+baau	
+bai	
+bak	
+bam	
+ban	
+bang	
+bap	
+bat	
+bau	
+be	
+bei	
+bek	
+beng	
+bet	
+bi	
+bik	
+bin	
+bing	
+bip	
+bit	
+biu	
+bo	
+bok	
+bong	
+bou	
+bu	
+bui	
+buk	
+bun	
+bung	
+but	
+caa	
+caai	
+caak	
+caam	
+caan	
+caang	
+caap	
+caat	
+caau	
+cai	
+cak	
+cam	
+can	
+cang	
+cap	
+cat	
+cau	
+ce	
+cek	
+ceng	
+ceoi	
+ceon	
+ceot	
+cet	
+ci	
+cik	
+cim	
+cin	
+cing	
+cip	
+cit	
+ciu	
+co	
+coek	
+coeng	
+coet	
+coi	
+cok	
+cong	
+cop	
+cou	
+cuk	
+cung	
+cyu	
+cyun	
+cyut	
+daa	
+daai	
+daak	
+daam	
+daan	
+daap	
+daat	
+dai	
+dak	
+dam	
+dan	
+dang	
+dap	
+dat	
+dau	
+de	
+dei	
+dek	
+deng	
+deoi	
+deon	
+deot	
+dep	
+det	
+deu	
+di	
+dik	
+dim	
+din	
+ding	
+dip	
+dit	
+diu	
+do	
+doe	
+doek	
+doeng	
+doi	
+dok	
+dong	
+dou	
+duk	
+dun	
+dung	
+dut	
+dyun	
+dyut	
+e	
+ei	
+ek	
+em	
+en	
+eot	
+et	
+eu	
+faa	
+faai	
+faak	
+faan	
+faat	
+fai	
+fan	
+fang	
+fat	
+fau	
+fe	
+fei	
+fi	
+fik	
+fing	
+fit	
+fiu	
+fo	
+fok	
+fong	
+fou	
+fu	
+fui	
+fuk	
+fun	
+fung	
+fut	
+gaa	
+gaai	
+gaak	
+gaam	
+gaan	
+gaang	
+gaap	
+gaat	
+gaau	
+gai	
+gak	
+gam	
+gan	
+gang	
+gap	
+gat	
+gau	
+ge	
+gei	
+geng	
+geoi	
+gep	
+gi	
+gik	
+gim	
+gin	
+ging	
+gip	
+git	
+giu	
+go	
+goe	
+goek	
+goeng	
+goet	
+goi	
+gok	
+gon	
+gong	
+got	
+gou	
+gu	
+gui	
+guk	
+gun	
+gung	
+gut	
+gwaa	
+gwaai	
+gwaak	
+gwaan	
+gwaang	
+gwaat	
+gwai	
+gwak	
+gwan	
+gwang	
+gwat	
+gwe	
+gwek	
+gwi	
+gwik	
+gwing	
+gwit	
+gwo	
+gwok	
+gwong	
+gyun	
+gyut	
+haa	
+haai	
+haak	
+haam	
+haan	
+haang	
+haap	
+haat	
+haau	
+hai	
+hak	
+ham	
+han	
+hang	
+hap	
+hat	
+hau	
+he	
+hei	
+hek	
+heng	
+heoi	
+hi	
+hik	
+him	
+hin	
+hing	
+hip	
+hit	
+hiu	
+hm	
+hng	
+ho	
+hoe	
+hoeng	
+hoi	
+hok	
+hon	
+hong	
+hot	
+hou	
+huk	
+hung	
+hyun	
+hyut	
+i	
+ik	
+jaa	
+jaai	
+jaak	
+jaam	
+jaang	
+jaap	
+jaau	
+jai	
+jam	
+jan	
+jang	
+jap	
+jat	
+jau	
+je	
+jen	
+jeng	
+jeoi	
+jeon	
+ji	
+jik	
+jim	
+jin	
+jing	
+jip	
+jit	
+jiu	
+jo	
+joek	
+joeng	
+ju	
+juk	
+jung	
+jyu	
+jyun	
+jyut	
+kaa	
+kaai	
+kaak	
+kaan	
+kaat	
+kaau	
+kai	
+kak	
+kam	
+kan	
+kang	
+kap	
+kat	
+kau	
+ke	
+kei	
+kek	
+kem	
+keng	
+keoi	
+kep	
+ket	
+keu	
+kik	
+kim	
+kin	
+king	
+kip	
+kit	
+kiu	
+ko	
+koe	
+koek	
+koeng	
+koi	
+kok	
+kong	
+ku	
+kui	
+kuk	
+kung	
+kut	
+kwaa	
+kwaai	
+kwaak	
+kwaang	
+kwaat	
+kwai	
+kwan	
+kwang	
+kwik	
+kwok	
+kwong	
+kyun	
+kyut	
+laa	naa
+laai	naai
+laak	naak
+laam	naam
+laan	naan
+laang	naang
+laap	naap
+laat	naat
+laau	naau
+lai	nai
+lak	nak
+lam	nam
+lan	nan
+lang	nang
+lap	nap
+lat	nat
+lau	nau
+le	ne
+lei	nei
+lek	nek
+lem	nem
+leng	neng
+leoi	neoi
+leon	neon
+leot	neot
+leu	neu
+li	ni
+lik	nik
+lim	nim
+lin	nin
+ling	ning
+lip	nip
+lit	nit
+liu	niu
+lo	no
+loe	noe
+loek	noek
+loeng	noeng
+loi	noi
+lok	nok
+long	nong
+lou	nou
+lu	nu
+luk	nuk
+lung	nung
+lut	nut
+lyun	nyun
+lyut	nyut
+m	
+maa	
+maai	
+maak	
+maan	
+maang	
+maat	
+maau	
+mai	
+mak	
+mam	
+man	
+mang	
+mat	
+mau	
+me	
+mei	
+meng	
+meu	
+mi	
+mik	
+min	
+ming	
+mit	
+miu	
+mo	
+mok	
+mon	
+mong	
+mou	
+mu	
+mui	
+muk	
+mun	
+mung	
+mut	
+naa	laa
+naai	laai
+naam	laam
+naan	laan
+naap	laap
+naat	laat
+naau	laau
+nai	lai
+nak	lak
+nam	lam
+nan	lan
+nang	lang
+nap	lap
+nau	lau
+ne	le
+nei	lei
+neng	leng
+neoi	leoi
+neot	leot
+ng	
+ngaa	
+ngaai	
+ngaak	
+ngaam	
+ngaan	
+ngaang	
+ngaap	
+ngaat	
+ngaau	
+ngai	
+ngak	
+ngam	
+ngan	
+ngang	
+ngap	
+ngat	
+ngau	
+nge	
+ngek	
+nget	
+ngi	
+ngit	
+ngo	
+ngoi	
+ngok	
+ngon	
+ngong	
+ngou	
+ngung	
+ni	li
+nik	lik
+nim	lim
+nin	lin
+ning	ling
+nip	lip
+nit	lit
+niu	liu
+no	lo
+noek	loek
+noeng	loeng
+noi	loi
+nok	lok
+nong	long
+nou	lou
+nu	lu
+nuk	luk
+nung	lung
+nyun	lyun
+o	
+oek	
+oet	
+oi	
+ok	
+on	
+ong	
+ou	
+paa	
+paai	
+paak	
+paan	
+paang	
+paat	
+paau	
+pai	
+pan	
+pang	
+pat	
+pau	
+pe	
+pei	
+pek	
+peng	
+pet	
+peu	
+pi	
+pik	
+pin	
+ping	
+pit	
+piu	
+po	
+pok	
+pong	
+pot	
+pou	
+pui	
+puk	
+pun	
+pung	
+put	
+saa	
+saai	
+saak	
+saam	
+saan	
+saang	
+saap	
+saat	
+saau	
+sai	
+sak	
+sam	
+san	
+sang	
+sap	
+sat	
+sau	
+se	
+sei	
+sek	
+sem	
+seng	
+seoi	
+seon	
+seot	
+sep	
+set	
+si	
+sik	
+sim	
+sin	
+sing	
+sip	
+sit	
+siu	
+so	
+soe	
+soek	
+soeng	
+soi	
+sok	
+song	
+sou	
+suk	
+sung	
+syu	
+syun	
+syut	
+taa	
+taai	
+taak	
+taam	
+taan	
+taap	
+taat	
+tai	
+tam	
+tan	
+tang	
+tap	
+tau	
+tek	
+teng	
+teoi	
+teon	
+teot	
+tet	
+ti	
+tik	
+tim	
+tin	
+ting	
+tip	
+tit	
+tiu	
+to	
+toe	
+toeng	
+toi	
+tok	
+tong	
+tou	
+tu	
+tuk	
+tung	
+tyun	
+tyut	
+uk	
+ung	
+waa	
+waai	
+waak	
+waan	
+waang	
+waat	
+wai	
+wak	
+wan	
+wang	
+wat	
+we	
+wei	
+wen	
+wet	
+wi	
+wik	
+win	
+wing	
+wit	
+wo	
+wok	
+won	
+wong	
+wou	
+wu	
+wui	
+wuk	
+wun	
+wut	
+zaa	
+zaai	
+zaak	
+zaam	
+zaan	
+zaang	
+zaap	
+zaat	
+zaau	
+zai	
+zak	
+zam	
+zan	
+zang	
+zap	
+zat	
+zau	
+ze	
+zei	
+zek	
+zem	
+zeng	
+zeoi	
+zeon	
+zeot	
+zep	
+zet	
+zeu	
+zi	
+zik	
+zim	
+zin	
+zing	
+zip	
+zit	
+ziu	
+zo	
+zoe	
+zoek	
+zoeng	
+zoi	
+zok	
+zong	
+zou	
+zuk	
+zung	
+zyu	
+zyun	
+zyut	

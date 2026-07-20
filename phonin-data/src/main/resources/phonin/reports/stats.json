@@ -1,0 +1,20 @@
+{
+  "caseFiles": 52,
+  "chars": {
+    "CANTONESE": 30022,
+    "JAPANESE": 12356,
+    "KOREAN": 19697,
+    "MANDARIN": 41847,
+    "ZHUYIN": 41847
+  },
+  "totalCases": 2106225,
+  "totalChars": 57889,
+  "totalWords": 301477,
+  "words": {
+    "CANTONESE": 0,
+    "JAPANESE": 176723,
+    "KOREAN": 0,
+    "MANDARIN": 124754,
+    "ZHUYIN": 0
+  }
+}

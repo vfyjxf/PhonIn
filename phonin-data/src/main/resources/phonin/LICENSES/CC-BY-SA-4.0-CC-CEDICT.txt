@@ -1,0 +1,12 @@
+CC-CEDICT — Creative Commons Attribution-ShareAlike 4.0 International
+Source: https://www.mdbg.net/chinese/dictionary?page=cedict
+
+CC-CEDICT is licensed under the Creative Commons Attribution-ShareAlike 4.0
+International License (CC BY-SA 4.0):
+
+  https://creativecommons.org/licenses/by-sa/4.0/
+
+Full license text: https://creativecommons.org/licenses/by-sa/4.0/legalcode
+
+You are free to share and adapt the data, provided you give appropriate credit
+and distribute any derivative under the same license.

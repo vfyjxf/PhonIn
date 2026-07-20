@@ -1,0 +1,21 @@
+[versions]
+okhttp = "4.12.0"
+jackson = "2.17.2"
+junit = "5.10.3"
+assertj = "3.26.3"
+spotless = "6.25.0"
+googleJavaFormat = "1.22.0"
+checkstyleTool = "10.17.0"
+jacoco = "0.8.11"
+fastutil = "8.5.15"
+
+[libraries]
+okhttp = { module = "com.squareup.okhttp3:okhttp", version.ref = "okhttp" }
+jackson-databind = { module = "com.fasterxml.jackson.core:jackson-databind", version.ref = "jackson" }
+jackson-csv = { module = "com.fasterxml.jackson.dataformat:jackson-dataformat-csv", version.ref = "jackson" }
+junit-jupiter = { module = "org.junit.jupiter:junit-jupiter", version.ref = "junit" }
+assertj = { module = "org.assertj:assertj-core", version.ref = "assertj" }
+fastutil = { module = "it.unimi.dsi:fastutil", version.ref = "fastutil" }
+
+[plugins]
+spotless = { id = "com.diffplug.spotless", version.ref = "spotless" }

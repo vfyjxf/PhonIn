@@ -1,0 +1,440 @@
+# golden parity table for FUZZY_ANG_AN: surface -> variants (oracle: fuzzy.py)
+# one line per real surface; variants is a sorted comma-list (may be empty)
+# surface	variants
+a	
+ai	
+an	ang
+ang	an
+ao	
+ba	
+bai	
+ban	bang
+bang	ban
+bao	
+bei	
+ben	
+beng	
+bi	
+bian	biang
+biang	bian
+biao	
+bie	
+bin	
+bing	
+bo	
+bong	
+bu	
+ca	
+cai	
+can	cang
+cang	can
+cao	
+ce	
+cei	
+cen	
+ceng	
+cha	
+chai	
+chan	chang
+chang	chan
+chao	
+che	
+chen	
+cheng	
+chi	
+chong	
+chou	
+chu	
+chua	
+chuai	
+chuan	chuang
+chuang	chuan
+chui	
+chun	
+chuo	
+ci	
+cong	
+cou	
+cu	
+cuan	cuang
+cui	
+cun	
+cuo	
+da	
+dai	
+dan	dang
+dang	dan
+dao	
+de	
+dei	
+den	
+deng	
+di	
+dia	
+dian	diang
+diao	
+die	
+din	
+ding	
+diu	
+dong	
+dou	
+du	
+duan	duang
+dui	
+dun	
+duo	
+e	
+ei	
+en	
+eng	
+er	
+fa	
+fan	fang
+fang	fan
+fei	
+fen	
+feng	
+fiao	
+fo	
+fou	
+fu	
+ga	
+gai	
+gan	gang
+gang	gan
+gao	
+ge	
+gei	
+gen	
+geng	
+gong	
+gou	
+gu	
+gua	
+guai	
+guan	guang
+guang	guan
+gui	
+gun	
+guo	
+ha	
+hai	
+han	hang
+hang	han
+hao	
+he	
+hei	
+hen	
+heng	
+hm	
+hng	
+hong	
+hou	
+hu	
+hua	
+huai	
+huan	huang
+huang	huan
+hui	
+hun	
+huo	
+ji	
+jia	
+jian	jiang
+jiang	jian
+jiao	
+jie	
+jin	
+jing	
+jiong	
+jiu	
+ju	
+juan	juang
+jue	
+jun	
+ka	
+kai	
+kan	kang
+kang	kan
+kao	
+ke	
+kei	
+ken	
+keng	
+kong	
+kou	
+ku	
+kua	
+kuai	
+kuan	kuang
+kuang	kuan
+kui	
+kun	
+kuo	
+la	
+lai	
+lan	lang
+lang	lan
+lao	
+le	
+lei	
+len	
+leng	
+li	
+lia	
+lian	liang
+liang	lian
+liao	
+lie	
+lin	
+ling	
+liu	
+lo	
+long	
+lou	
+lu	
+luan	luang
+lun	
+luo	
+lv	
+lve	
+ma	
+mai	
+man	mang
+mang	man
+mao	
+me	
+mei	
+men	
+meng	
+mi	
+mian	miang
+miao	
+mie	
+min	
+ming	
+miu	
+mo	
+mou	
+mu	
+m̀	
+m̄	
+n	
+na	
+nai	
+nan	nang
+nang	nan
+nao	
+ne	
+nei	
+nen	
+neng	
+ng	
+ni	
+nia	
+nian	niang
+niang	nian
+niao	
+nie	
+nin	
+ning	
+niu	
+nong	
+nou	
+nu	
+nuan	nuang
+nun	
+nuo	
+nv	
+nve	
+o	
+ou	
+pa	
+pai	
+pan	pang
+pang	pan
+pao	
+pei	
+pen	
+peng	
+pi	
+pian	piang
+piao	
+pie	
+pin	
+ping	
+po	
+pou	
+pu	
+qi	
+qia	
+qian	qiang
+qiang	qian
+qiao	
+qie	
+qin	
+qing	
+qiong	
+qiu	
+qu	
+quan	quang
+que	
+qun	
+ran	rang
+rang	ran
+rao	
+re	
+ren	
+reng	
+ri	
+rong	
+rou	
+ru	
+rua	
+ruan	ruang
+rui	
+run	
+ruo	
+sa	
+sai	
+san	sang
+sang	san
+sao	
+se	
+sen	
+seng	
+sha	
+shai	
+shan	shang
+shang	shan
+shao	
+she	
+shei	
+shen	
+sheng	
+shi	
+shou	
+shu	
+shua	
+shuai	
+shuan	shuang
+shuang	shuan
+shui	
+shun	
+shuo	
+si	
+song	
+sou	
+su	
+suan	suang
+sui	
+sun	
+suo	
+ta	
+tai	
+tan	tang
+tang	tan
+tao	
+te	
+tei	
+teng	
+ti	
+tian	tiang
+tiao	
+tie	
+ting	
+tong	
+tou	
+tu	
+tuan	tuang
+tui	
+tun	
+tuo	
+wa	
+wai	
+wan	wang
+wang	wan
+wei	
+wen	
+weng	
+wo	
+wong	
+wu	
+xi	
+xia	
+xian	xiang
+xiang	xian
+xiao	
+xie	
+xin	
+xing	
+xiong	
+xiu	
+xu	
+xuan	xuang
+xue	
+xun	
+ya	
+yan	yang
+yang	yan
+yao	
+ye	
+yi	
+yin	
+ying	
+yo	
+yong	
+you	
+yu	
+yuan	yuang
+yue	
+yun	
+za	
+zai	
+zan	zang
+zang	zan
+zao	
+ze	
+zei	
+zen	
+zeng	
+zha	
+zhai	
+zhan	zhang
+zhang	zhan
+zhao	
+zhe	
+zhei	
+zhen	
+zheng	
+zhi	
+zhong	
+zhou	
+zhu	
+zhua	
+zhuai	
+zhuan	zhuang
+zhuang	zhuan
+zhui	
+zhun	
+zhuo	
+zi	
+zong	
+zou	
+zu	
+zuan	zuang
+zui	
+zun	
+zuo	
+ê̄	
+ê̌	
+ń	
+ńg	
+ň	
+ňg	
+ǹ	
+ǹg	
+ḿ	
+ế	
+ề	

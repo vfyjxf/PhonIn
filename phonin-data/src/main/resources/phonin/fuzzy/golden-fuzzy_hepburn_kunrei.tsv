@@ -1,0 +1,5204 @@
+# golden parity table for FUZZY_HEPBURN_KUNREI: surface -> variants (oracle: fuzzy.py)
+# one line per real surface; variants is a sorted comma-list (may be empty)
+# surface	variants
+a	
+aa	
+abaku	
+abara	
+abareru	
+abiru	
+abiseru	
+abu	
+abumi	
+abunai	
+abura	
+aburaaka	
+aburamushi	aburamusi
+aburana	
+aburatsubo	aburatubo
+aburu	
+achi	ati
+ada	
+adappoi	
+adasuru	
+adeyaka	
+aegu	
+aemono	
+aenai	
+aeru	
+aete	
+aezu	
+afureru	ahureru
+agaku	
+agameru	
+aganau	
+agari	
+agaru	
+age	
+agemaki	
+ageru	
+agetsurau	ageturau
+agito	
+agitou	
+ago	
+agohige	
+agumu	
+aguneru	
+ahiru	
+ai	
+aida	
+aimuko	
+aisatsu	aisatu
+aite	
+aiyome	
+aji	azi
+ajika	azika
+ajiwau	aziwau
+aka	
+akabana	
+akagane	
+akaginu	
+akagire	
+akago	
+akai	
+akakumi	
+akakurige	
+akane	
+akarameru	
+akaramu	
+akari	
+akarui	
+akarumu	
+akashi	akasi
+akasu	
+akatsuchi	akatsuti,akatuchi
+akatsuki	akatuki
+akauma	
+akaza	
+ake	
+akebi	
+akebono	
+akekakaru	
+akeru	
+aki	
+akichi	akiti
+akikoboreru	
+akinai	
+akinau	
+akinire	
+akira	
+akiraka	
+akirakanisuru	
+akirameru	
+akireru	
+akiru	
+akitarinai	
+akitariru	
+akizora	
+akogareru	
+akome	
+akou	
+aku	
+akubisuru	
+akuru	
+akuta	
+akutsu	akutu
+ama	
+amadare	
+amaeru	
+amagoi	
+amai	
+amaneku	
+amaneshi	amanesi
+amari	
+amaru	
+amasake	
+amasu	
+amatsu	amatu
+amatsusae	amatusae
+amayakasu	
+amazake	
+ame	
+amenouo	
+ami	
+amido	
+amigashira	amigasira
+aminotsuna	aminotuna
+amu	
+an	
+ana	
+anadoru	
+anagura	
+anazuru	
+ane	
+ani	
+aniyome	
+anmari	
+anzu	
+ao	
+aoakagi	
+aogaeru	
+aogiri	
+aogo	
+aogu	
+aoguro	
+aoguroi	
+aoi	
+aomono	
+aomuke	
+aomukibana	
+aoru	
+aoumigame	
+appare	
+ara	
+aragane	
+aragau	
+arai	
+arakajime	arakazime
+araki	
+aranuno	
+arare	
+arashi	arasi
+arashio	arasio
+arasoiiu	
+arasou	
+arasu	
+arata	
+aratama	
+aratamaru	
+aratameru	
+arato	
+arau	
+arawareru	
+arawashishimesu	arawasisimesu
+arawasu	
+arazu	
+arechi	areti
+areno	
+areru	
+arewa	
+ari	
+arizuka	
+aru	
+arui	
+aruiha	
+aruji	aruzi
+aruku	
+aruminiumu	
+asa	
+asagao	
+asagara	
+asagi	
+asahi	
+asai	
+asaito	
+asari	
+asaru	
+ase	
+asemo	
+aseru	
+ashi	asi
+ashiato	asiato
+ashibue	asibue
+ashige	asige
+ashikase	asikase
+ashikiru	asikiru
+ashimatsui	ashimatui,asimatsui
+ashinae	asinae
+ashinoho	asinoho
+ashinokou	asinokou
+ashinoura	asinoura
+ashita	asita
+ashitakagumo	asitakagumo
+ashiura	asiura
+asobasu	
+asobi	
+asobime	
+asobu	
+ata	
+ataeru	
+atai	
+atakamo	
+atama	
+atamanokazari	
+atarashii	atarasii
+atari	
+ataru	
+atataka	
+atatakai	
+atatamaru	
+atatameru	
+atau	
+ate	
+ategi	
+ateru	
+ateyaka	
+ato	
+atsu	atu
+atsugane	atugane
+atsui	atui
+atsukai	atukai
+atsukaru	atukaru
+atsukau	atukau
+atsumariiu	atumariiu
+atsumaru	atumaru
+atsumeru	atumeru
+atsumono	atumono
+atsumononabe	atumononabe
+atsuraeru	aturaeru
+atsusaatari	atusaatari
+atsushi	atsusi,atushi
+au	
+awa	
+awabi	
+awachi	awati
+awai	
+aware	
+awaremu	
+awase	
+awasematsuru	awasematuru
+awaseru	
+awasu	
+awatadashii	awatadasii
+awateru	
+aya	
+ayabumu	
+ayaginu	
+ayakaru	
+ayamachi	ayamati
+ayamaru	
+ayamatsu	ayamatu
+ayameru	
+ayashii	ayasii
+ayashiikotoba	ayasiikotoba
+ayashimu	ayasimu
+ayatsuru	ayaturu
+ayaui	
+ayu	
+ayumi	
+ayumu	
+aza	
+azakeru	
+azami	
+azamuku	
+azana	
+azanau	
+azaru	
+azayaka	
+aze	
+azuchi	azuti
+azukaru	
+azukeru	
+azuki	
+azusa	
+ba	
+baa	
+baba	
+bachi	bati
+bae	
+bai	
+bakasu	
+bake	
+bakemono	
+bakeru	
+baku	
+ban	
+banmeshi	banmesi
+bara	
+barai	
+barakeru	
+bare	
+bari	
+bariumu	
+bassuru	
+bata	
+batake	
+batsu	batu
+batta	
+bau	
+be	
+bechi	beti
+bei	
+beki	
+ben	
+beni	
+bentou	
+beririumu	
+beshi	besi
+betsu	betu
+betsuni	betuni
+betsuno	betuno
+bi	
+bichi	biti
+bii	
+biki	
+bikko	
+bin	
+biraki	
+bisumasu	
+bita	
+bitsu	bitu
+bo	
+bochi	boti
+bokashi	bokasi
+bokasu	
+bokeru	
+boko	
+boku	
+bon	
+bora	
+bori	
+boro	
+boshi	bosi
+botan	
+botsu	botu
+bou	
+boufura	bouhura
+boukou	
+bu	
+buchi	buti
+bukai	
+buku	
+bun	
+buna	
+bune	
+buri	
+bushi	busi
+buta	
+buto	
+butsu	butu
+butsubutsuiu	butubutuiu
+butsukaru	butukaru
+buu	
+buyo	
+buyu	
+byaku	
+byou	
+byoubu	
+byoutaru	
+byuu	
+cha	tya
+chaku	tyaku
+chan	tyan
+chi	ti
+chibiru	tibiru
+chichi	titi
+chichibu	titibu
+chidori	tidori
+chie	tie
+chigaeru	tigaeru
+chigai	tigai
+chigau	tigau
+chigaya	tigaya
+chigiri	tigiri
+chigiru	tigiru
+chigyousho	chigyousyo,tigyousho
+chihaya	tihaya
+chii	tii
+chiisai	tiisai
+chiisanakui	tiisanakui
+chijimaru	chizimaru,tijimaru
+chijimeru	chizimeru,tijimeru
+chijimi	chizimi,tijimi
+chijimiaya	chizimiaya,tijimiaya
+chijimu	chizimu,tijimu
+chijirasu	chizirasu,tijirasu
+chijireru	chizireru,tijireru
+chikai	tikai
+chikara	tikara
+chikau	tikau
+chikayoru	tikayoru
+chikazuku	tikazuku
+chiki	tiki
+chikiri	tikiri
+chiku	tiku
+chimaki	timaki
+chimata	timata
+chin	tin
+chinamu	tinamu
+chinba	tinba
+chinomigo	tinomigo
+chinuru	tinuru
+chirabaru	tirabaru
+chirakaru	tirakaru
+chirakasu	tirakasu
+chirasu	tirasu
+chiri	tiri
+chiribameru	tiribameru
+chirimen	tirimen
+chiriyoke	tiriyoke
+chiru	tiru
+chisa	tisa
+chisha	chisya,tisha
+chissuru	tissuru
+chisuji	chisuzi,tisuji
+chitaniumu	titaniumu
+chito	tito
+chitsu	chitu,titsu
+chitto	titto
+cho	tyo
+choku	tyoku
+chorochoro	tyorotyoro
+chou	tyou
+chousenninjin	chousenninzin,tyousenninjin
+chouzame	tyouzame
+chouzuru	tyouzuru
+chu	tyu
+chuchi	chuti,tyuchi
+chun	tyun
+chutsu	chutu,tyutsu
+chuu	tyuu
+chuusuru	tyuusuru
+da	
+daasu	
+dachi	dati
+dai	
+daidai	
+daikon	
+daka	
+dake	
+daki	
+daku	
+dama	
+damaru	
+damasu	
+dan	
+dana	
+dani	
+daore	
+dare	
+dasu	
+date	
+dateru	
+datsu	datu
+de	
+deau	
+dechi	deti
+dei	
+dekaguramu	
+dekameetoru	
+dekarittoru	
+deki	
+dekiagaranai	
+dekimono	
+dekinai	
+deko	
+deku	
+den	
+deru	
+deshiguramu	desiguramu
+deshimeetoru	desimeetoru
+deshirittoru	desirittoru
+detsu	detu
+deu	
+do	
+dobato	
+dobu	
+dobugai	
+doburoku	
+dochi	doti
+dodai	
+dojou	dozyou
+doki	
+dokoro	
+doku	
+dokudami	
+domari	
+dome	
+domo	
+domoru	
+don	
+donaru	
+donburi	
+donguri	
+dono	
+doori	
+dooshi	doosi
+dora	
+dori	
+doro	
+doroashige	doroasige
+doru	
+dotsu	dotu
+dou	
+dougamae	
+e	
+eba	
+ebi	
+ebira	
+ebisu	
+eburi	
+echi	eti
+eda	
+edachi	edati
+egaku	
+eguru	
+ei	
+eki	
+ekubo	
+emishi	emisi
+emu	
+en	
+ena	
+enagamae	
+endou	
+enishi	enisi
+enju	enzyu
+enogo	
+enoki	
+era	
+erabu	
+erai	
+eramu	
+eri	
+eru	
+esa	
+eso	
+etsu	etu
+eu	
+eyami	
+fu	hu
+fuchi	futi,huchi
+fuchidoru	futidoru,huchidoru
+fuda	huda
+fude	hude
+fue	hue
+fueru	hueru
+fugo	hugo
+fugu	hugu
+fuigo	huigo
+fuiito	huiito
+fuji	fuzi,huji
+fujibakama	fuzibakama,hujibakama
+fujikazura	fuzikazura,hujikazura
+fujimame	fuzimame,hujimame
+fujimodoki	fuzimodoki,hujimodoki
+fuka	huka
+fukai	hukai
+fukaidoro	hukaidoro
+fukamaru	hukamaru
+fukameru	hukameru
+fukasu	hukasu
+fukeru	hukeru
+fuki	huki
+fukinarasu	hukinarasu
+fuku	huku
+fukube	hukube
+fukumeru	hukumeru
+fukumidama	hukumidama
+fukumu	hukumu
+fukurahagi	hukurahagi
+fukuramu	hukuramu
+fukureru	hukureru
+fukuro	hukuro
+fukurou	hukurou
+fukusa	hukusa
+fumaeru	humaeru
+fumaki	humaki
+fumi	humi
+fumiita	humiita
+fuminijiru	fuminiziru,huminijiru
+fumoto	humoto
+fumu	humu
+fumuto	humuto
+fun	hun
+funa	huna
+funabata	hunabata
+funaberi	hunaberi
+funashiuzura	funasiuzura,hunashiuzura
+funayosooi	hunayosooi
+fundoshi	fundosi,hundoshi
+fune	hune
+funenoho	hunenoho
+funsuru	hunsuru
+furafurasuru	hurahurasuru
+furan	huran
+furanni	huranni
+furebumi	hurebumi
+fureru	hureru
+furi	huri
+furigane	hurigane
+furitsuzumi	furituzumi,huritsuzumi
+furu	huru
+furueru	hurueru
+furui	hurui
+furusato	hurusato
+furusu	hurusu
+furuu	huruu
+furuwaseru	huruwaseru
+furuwasu	huruwasu
+furuzake	huruzake
+fusa	husa
+fusagaru	husagaru
+fusagu	husagu
+fusego	husego
+fusegu	husegu
+fuseru	huseru
+fushi	fusi,hushi
+fushiito	fusiito,hushiito
+fusu	husu
+fusuberu	husuberu
+fusuma	husuma
+futa	huta
+futago	hutago
+futamata	hutamata
+futamono	hutamono
+futatabi	hutatabi
+futatsu	futatu,hutatsu
+futoi	hutoi
+futokoro	hutokoro
+futoru	hutoru
+futsu	futu,hutsu
+fuu	huu
+fuyasu	huyasu
+fuyu	huyu
+fuza	huza
+fuzoroi	huzoroi
+ga	
+gachi	gati
+gadoriniumu	
+gaenjiru	gaenziru
+gagaimo	
+gai	
+gakari	
+gakaru	
+gake	
+gaki	
+gaku	
+gama	
+gamazumi	
+gan	
+gandare	
+gane	
+ganki	
+gara	
+garami	
+gari	
+gariumu	
+garon	
+gashira	gasira
+gasuru	
+gata	
+gatai	
+gatsu	gatu
+gawa	
+gawari	
+gazami	
+ge	
+gechi	geti
+gei	
+geki	
+gekisuru	
+gen	
+gensu	
+gerumaniumu	
+getsu	getu
+gi	
+gichi	giti
+gigi	
+giki	
+giku	
+gime	
+gimi	
+gin	
+gire	
+giri	
+gitsu	gitu
+giwa	
+go	
+gochi	goti
+goe	
+goisagi	
+goki	
+gokoro	
+goku	
+gomakasu	
+gomame	
+gomi	
+gon	
+gori	
+goro	
+goroshi	gorosi
+goshi	gosi
+goto	
+gotoni	
+gotoshi	gotosi
+gotsu	gotu
+gou	
+gouman	
+goumo	
+goza	
+gozaru	
+gu	
+guchi	guti
+gumi	
+gumo	
+gun	
+gurai	
+guramu	
+gururitomegurashitakaki	gururitomegurasitakaki
+gurushii	gurusii
+gusa	
+gutsu	gutu
+guu	
+guusuru	
+guwachi	guwati
+gya	
+gyaku	
+gyo	
+gyoku	
+gyou	
+gyuu	
+ha	
+haba	
+habakaru	
+habaki	
+habamu	
+habataki	
+habataku	
+haberu	
+habikoru	
+habuku	
+hachi	hati
+hachisu	hatisu
+hada	
+hadagi	
+hadahe	
+hadaka	
+hadanugi	
+hadanugu	
+hadashi	hadasi
+hadome	
+hae	
+haeru	
+haezumi	
+hafuridokoro	hahuridokoro
+hagane	
+hagareru	
+hagasu	
+hage	
+hagemasu	
+hagemu	
+hageru	
+hageshii	hagesii
+hagi	
+haginohone	
+hagu	
+haguki	
+hagukumu	
+hagureru	
+hagusa	
+haha	
+hahadori	
+hahaguri	
+hahaso	
+hahatsuchou	hahatsutyou,hahatuchou
+hai	
+hairu	
+haitaka	
+haji	hazi
+hajikami	hazikami
+hajikeru	hazikeru
+hajikiyumi	hazikiyumi
+hajiku	haziku
+hajimaru	hazimaru
+hajime	hazime
+hajimeru	hazimeru
+hajimete	hazimete
+hajirau	hazirau
+hajiru	haziru
+haka	
+hakaba	
+hakadoru	
+hakama	
+hakamichi	hakamiti
+hakanai	
+hakarau	
+hakari	
+hakarigoto	
+hakaru	
+hake	
+hakimono	
+hakkirishinai	hakkirisinai
+hako	
+hakobe	
+hakobu	
+haku	
+hama	
+hamabishi	hamabisi
+hamachi	hamati
+hamaguri	
+hamaru	
+hamasuge	
+hameru	
+hamo	
+hamu	
+han	
+hana	
+hanabira	
+hanabusa	
+hanada	
+hanagaki	
+hanahada	
+hanahadashii	hanahadasii
+hanahiru	
+hanaiki	
+hanaji	hanazi
+hanajiru	hanaziru
+hanajunsai	hanazyunsai
+hanakiri	
+hanakiru	
+hanamuke	
+hananowaki	
+hanareru	
+hanashi	hanasi
+hanashiru	hanasiru
+hanasu	
+hanasuge	
+hanasuji	hanasuzi
+hanatsu	hanatu
+hanawa	
+hanayaka	
+hanazumari	
+hane	
+hanekazari	
+hanenomoto	
+haneodoru	
+haneru	
+hani	
+hanzou	
+haoto	
+hara	
+harai	
+haraka	
+harakudashi	harakudasi
+harami	
+haramu	
+haranomushi	haranomusi
+hararago	
+harasu	
+harau	
+harawata	
+hare	
+haregi	
+haremono	
+hareru	
+hari	
+harigane	
+harinezumi	
+haritsuke	harituke
+haru	
+haruka	
+hasamaru	
+hasami	
+hasamu	
+haseru	
+hashagu	hasyagu
+hashi	hasi
+hashibami	hasibami
+hashigo	hasigo
+hashika	hasika
+hashike	hasike
+hashira	hasira
+hashiranomasugata	hasiranomasugata
+hashiru	hasiru
+hashitame	hasitame
+hashizutsu	hashizutu,hasizutsu
+hassuru	
+hasu	
+hasunone	
+hata	
+hataashi	hataasi
+hataboko	
+hatagashira	hatagasira
+hatahata	
+hataito	
+hatajirushi	hatajirusi,hatazirushi
+hatake	
+hataku	
+hataraku	
+hatasu	
+hatato	
+hatazao	
+hate	
+hateganai	
+hateru	
+hato	
+hatoba	
+hatomugi	
+hatsu	hatu
+hatsukanezumi	hatukanezumi
+hatsuru	haturu
+hau	
+haya	
+hayabusa	
+hayai	
+hayaisama	
+hayakuchi	hayakuti
+hayakuutsu	hayakuutu
+hayamaru	
+hayameru	
+hayase	
+hayashi	hayasi
+hayasu	
+hayate	
+hayauma	
+hazama	
+haze	
+hazekome	
+hazeru	
+hazu	
+hazukashii	hazukasii
+hazukashimeru	hazukasimeru
+hazumi	
+hazumu	
+hazureru	
+hazusu	
+he	
+hebi	
+hechi	heti
+hedataru	
+hedateru	
+hego	
+hegu	
+hei	
+heisuru	
+heki	
+hekisuru	
+hekomu	
+hekutoguramu	
+hekutomeetoru	
+hekutorittoru	
+hen	
+hena	
+hera	
+herasu	
+heri	
+herikudaru	
+heru	
+hesaki	
+heso	
+hesu	
+heta	
+hetsu	hetu
+hetsurai	heturai
+hetsurau	heturau
+hettsui	
+heya	
+hezuru	
+hi	
+hibari	
+hibi	
+hibiki	
+hibiku	
+hichi	hiti
+hichigi	hitigi
+hichikudoi	hitikudoi
+hichiriki	hitiriki
+hida	
+hidari	
+hidarinoudeganai	
+hidarite	
+hideri	
+hidoi	
+hie	
+hieru	
+higaarawareru	
+higai	
+higamu	
+higasa	
+higashi	higasi
+hige	
+higuma	
+higurashi	higurasi
+hihi	
+hii	
+hiideru	
+hiiragi	
+hiji	hizi
+hijiki	hiziki
+hijiri	hiziri
+hikae	
+hikaeru	
+hikagami	
+hikage	
+hikari	
+hikaru	
+hikeru	
+hiki	
+hikiiru	
+hikiri	
+hikitomeru	
+hikitsubusu	hikitubusu
+hikitsuke	hikituke
+hikitsuru	hikituru
+hikizuna	
+hiko	
+hikobae	
+hiku	
+hikui	
+hikuihimegaki	
+hikumaru	
+hikumeru	
+hima	
+hime	
+himegaki	
+himeru	
+himo	
+himogori	
+himojii	himozii
+himono	
+himorogi	
+himotoku	
+himushi	himusi
+hin	
+hina	
+hinabiru	
+hinekuru	
+hineru	
+hinoe	
+hinohikari	
+hinoki	
+hinokuchi	hinokuti
+hinoshi	hinosi
+hinoto	
+hira	
+hirakeru	
+hiraki	
+hirakiugokasu	
+hiraku	
+hirame	
+hirameki	
+hirameku	
+hiratai	
+hiratake	
+hiratobari	
+hire	
+hiro	
+hirobiroto	
+hirogaru	
+hirogeru	
+hiroi	
+hiroiago	
+hiromaru	
+hiromeru	
+hirou	
+hiru	
+hirugaeru	
+hirugaesu	
+hirugao	
+hirumu	
+hisage	
+hisagi	
+hisago	
+hisagu	
+hisame	
+hisashi	hisasi
+hisashii	hisasii
+hishaku	hisyaku
+hishi	hisi
+hishigu	hisigu
+hishihishi	hisihisi
+hishiko	hisiko
+hishikui	hisikui
+hishimeku	hisimeku
+hishio	hisio
+hiso	
+hisoka	
+hisokani	
+hisokanishiru	hisokanisiru
+hisokaniukagaishiru	hisokaniukagaisiru
+hisomeru	
+hisomu	
+hissageru	
+hissori	
+hitai	
+hitaki	
+hitaru	
+hitasu	
+hitata	
+hito	
+hitoashi	hitoasi
+hitoe	
+hitoenotsutsusodeudenuki	hitoenotutusodeudenuki
+hitomawari	
+hitomi	
+hitomigakagayaku	
+hitomoshi	hitomosi
+hitori	
+hitorimono	
+hitoshii	hitosii
+hitoshiku	hitosiku
+hitoshikusuru	hitosikusuru
+hitotsu	hitotu
+hitoya	
+hitoyozake	
+hitsu	hitu
+hitsugi	hitugi
+hitsugiguruma	hitugiguruma
+hitsugikazari	hitugikazari
+hitsuginawa	hituginawa
+hitsuji	hitsuzi,hituji
+hitsujisaru	hitsuzisaru,hitujisaru
+hiuchi	hiuti
+hiwa	
+hiya	
+hiyakasu	
+hiyasu	
+hiyayaka	
+hiyodori	
+hiyoko	
+hiyomeki	
+hiyu	
+hiza	
+hizakake	
+hizamazuku	
+hizashi	hizasi
+hizume	
+hizumu	
+ho	
+hobashira	hobasira
+hobo	
+hochi	hoti
+hodasu	
+hodo	
+hodokeru	
+hodokosu	
+hodoku	
+hoeru	
+hofuru	hohuru
+hogaraka	
+hogoru	
+hogusu	
+hoho	
+hohoemu	
+hojishi	hojisi,hozishi
+hoka	
+hokeru	
+hoko	
+hokobukuro	
+hokora	
+hokori	
+hokorobiru	
+hokoru	
+hokosaki	
+hokozukuri	
+hoku	
+hokuro	
+hokuso	
+homare	
+homeru	
+hon	
+honbako	
+hone	
+hono	
+honogurai	
+honoka	
+honomekasu	
+honomeku	
+honoo	
+hoo	
+hoobone	
+hoohige	
+hora	
+horeru	
+hori	
+horo	
+horobiru	
+horobosu	
+horobu	
+horoguruma	
+horu	
+hosaki	
+hoshi	hosi
+hoshii	hosii
+hoshiii	hosiii
+hoshiimama	hosiimama
+hoshiuo	hosiuo
+hosohimo	
+hosoi	
+hosonuno	
+hosoru	
+hossu	
+hossuru	
+hosu	
+hota	
+hotaru	
+hotobashiru	hotobasiru
+hotogi	
+hotohoto	
+hotoke	
+hotondo	
+hotori	
+hototogisu	
+hotsu	hotu
+hou	
+houdate	
+houjiru	houziru
+houki	
+houkigusa	
+houmuru	
+hourensou	
+houru	
+houzuru	
+hozo	
+hyaku	
+hyoi	
+hyoku	
+hyou	
+hyoushigi	hyousigi
+hyu	
+hyuku	
+hyuu	
+i	
+ibara	
+ibari	
+ibiki	
+ibitsu	ibitu
+ibo	
+ibukaru	
+iburu	
+ibusu	
+ichi	iti
+ichibi	itibi
+ichigo	itigo
+ichijirushii	ichijirusii,ichizirushii,itijirushii
+idaku	
+idasu	
+ideru	
+idomu	
+ie	
+iedomo	
+ienokatawara	
+ieru	
+iga	
+igamu	
+igata	
+ige	
+igeta	
+igurumi	
+ihai	
+ihaya	
+ii	
+iiarasou	
+iinayamu	
+iitateru	
+iitsuke	iituke
+ijikuru	izikuru
+ijimeru	izimeru
+ijiru	iziru
+ika	
+ikada	
+ikade	
+ikadeka	
+ikameshii	ikamesii
+ikan	
+ikanobori	
+ikarasu	
+ikari	
+ikaru	
+ikaruga	
+ikasu	
+ikazuchi	ikazuti
+ike	
+ikenie	
+ikeru	
+iki	
+ikidooru	
+ikihoi	
+ikioi	
+ikire	
+ikiru	
+ikiyasui	
+ikoi	
+ikou	
+iku	
+ikura	
+ikusa	
+ikusabune	
+ikusagoromo	
+ikusaguruma	
+ikutsu	ikutu
+ima	
+imada	
+imashi	imasi
+imashime	imasime
+imashimeru	imasimeru
+imawashii	imawasii
+imi	
+imina	
+imo	
+imomushi	imomusi
+imori	
+imoto	
+imouto	
+imu	
+in	
+ina	
+inabikari	
+inada	
+inago	
+inamu	
+inanaku	
+inbako	
+inchi	inti
+ine	
+inishie	inisie
+inoashi	inoasi
+inochi	inoti
+inoko	
+inori	
+inoru	
+inoshishi	inosisi
+inu	
+inuawa	
+inubie	
+inuenju	inuenzyu
+inui	
+inunazuna	
+io	
+iori	
+iradatsu	iradatu
+iraka	
+ire	
+ireru	
+irezumi	
+iri	
+irie	
+irigome	
+irijiumu	iriziumu
+irimajiru	irimaziru
+iro	
+irodori	
+irodoru	
+iroginu	
+irori	
+irotsuchi	irotsuti,irotuchi
+iru	
+iruka	
+isagiami	
+isagiyoi	
+isagomushi	isagomusi
+isakau	
+isamashii	isamasii
+isame	
+isameru	
+isamu	
+isao	
+isasaka	
+ise	
+ishi	isi
+ishibari	isibari
+ishibumi	isibumi
+ishidatami	isidatami
+ishihajiki	ishihaziki,isihajiki
+ishimochi	ishimoti,isimochi
+ishiyama	isiyama
+ishiyumi	isiyumi
+ishizue	isizue
+ishizuki	isizuki
+ishizumi	isizumi
+iso	
+isogashii	isogasii
+isogi	
+isogiyuku	
+isogu	
+isoshimu	isosimu
+isuka	
+isuru	
+ita	
+itachi	itati
+itadaki	
+itadaku	
+itagakoi	
+itagane	
+itai	
+itamashii	itamasii
+itameru	
+itamu	
+itaru	
+itasu	
+itatsuki	itatuki
+itawaru	
+itazuki	
+itazura	
+iteru	
+ito	
+itogameguru	
+itoguchi	itoguti
+itogutsu	itogutu
+itokenai	
+itokuda	
+itoma	
+itomakinoashi	itomakinoasi
+itonami	
+itonamu	
+itonomotsure	itonomoture
+itoshii	itosii
+itou	
+itowaku	
+itsu	itu
+itsuku	ituku
+itsukushi	itsukusi,itukushi
+itsukushimanai	itsukusimanai,itukushimanai
+itsukushimi	itsukusimi,itukushimi
+itsukushimu	itsukusimu,itukushimu
+itsutsu	itutu
+itsuwari	ituwari
+itsuwaru	ituwaru
+itterubiumu	
+ittoriumu	
+iu	
+iwa	
+iwaku	
+iwana	
+iwanya	
+iwao	
+iwashi	iwasi
+iwau	
+iwaya	
+iwayuru	
+iya	
+iyaiyakotaeru	
+iyaninaru	
+iyashii	iyasii
+iyashikumo	iyasikumo
+iyashimeru	iyasimeru
+iyashimu	iyasimu
+iyasu	
+iyoiyo	
+izanau	
+izari	
+izaru	
+izukuni	
+izukunzo	
+izumi	
+izure	
+ja	zya
+jaku	zyaku
+jan	zyan
+jareru	zyareru
+ji	zi
+jichi	jiti,zichi
+jigabachi	jigabati,zigabachi
+jigane	zigane
+jigo	zigo
+jii	zii
+jiji	zizi
+jijii	zizii
+jika	zika
+jiki	ziki
+jiku	ziku
+jikugashira	jikugasira,zikugashira
+jime	zime
+jin	zin
+jinai	zinai
+jinkou	zinkou
+jirasu	zirasu
+jireru	zireru
+jirettai	zirettai
+jirushi	jirusi,zirushi
+jisha	jisya,zisha
+jishibari	jisibari,zishibari
+jitsu	jitu,zitsu
+jiyu	ziyu
+jo	zyo
+joku	zyoku
+jotsu	jotu,zyotsu
+jou	zyou
+jougi	zyougi
+ju	zyu
+juchi	juti,zyuchi
+juku	zyuku
+jun	zyun
+junjiru	junziru,zyunjiru
+junzuru	zyunzuru
+jutsu	jutu,zyutsu
+juu	zyuu
+ka	
+kaba	
+kaban	
+kabau	
+kabe	
+kabi	
+kabiru	
+kabu	
+kabura	
+kaburaya	
+kaburi	
+kaburu	
+kabuseru	
+kabuto	
+kabutogani	
+kachi	kati
+kachidoki	katidoki
+kado	
+kadomiumu	
+kae	
+kaeau	
+kaede	
+kaerimiru	
+kaeru	
+kaesu	
+kaette	
+kagameru	
+kagami	
+kagamidai	
+kagamitai	
+kagamu	
+kagari	
+kagaribi	
+kagaru	
+kagayaku	
+kage	
+kagerou	
+kageru	
+kagi	
+kagibana	
+kagiri	
+kagiru	
+kago	
+kagu	
+kai	
+kaibaoke	
+kaichuu	kaityuu
+kaigarabone	
+kaiko	
+kaikonosu	
+kaina	
+kairagi	
+kairi	
+kaiyone	
+kaji	kazi
+kajika	kazika
+kajiki	kaziki
+kajiru	kaziru
+kaka	
+kakaa	
+kakaeru	
+kakageru	
+kakame	
+kakari	
+kakaru	
+kakasu	
+kakato	
+kakawaru	
+kake	
+kakeba	
+kakehashi	kakehasi
+kakehi	
+kakeru	
+kakesu	
+kaki	
+kakiatsumeru	kakiatumeru
+kakiiro	
+kakimono	
+kakine	
+kakoi	
+kakomu	
+kakotsu	kakotu
+kakotsukeru	kakotukeru
+kakou	
+kaku	
+kakumau	
+kakureru	
+kakushi	kakusi
+kakusu	
+kakusuru	
+kakutaru	
+kama	
+kamabisushii	kamabisusii
+kamachi	kamati
+kamado	
+kamaeru	
+kamasu	
+kamau	
+kame	
+kami	
+kamikaesu	
+kamikazari	
+kamikirimushi	kamikirimusi
+kaminari	
+kamishimo	kamisimo
+kamizutsumi	kamizutumi
+kamo	
+kamoji	kamozi
+kamome	
+kamoshika	kamosika
+kamosu	
+kamu	
+kamuro	
+kan	
+kana	
+kanabasami	
+kanaderu	
+kanae	
+kanaenotsukimono	kanaenotukimono
+kanaeru	
+kanagu	
+kanahodashi	kanahodasi
+kanamari	
+kaname	
+kanarazu	
+kanashii	kanasii
+kanashimu	kanasimu
+kanatoko	
+kanau	
+kanawa	
+kanba	
+kanbashii	kanbasii
+kane	
+kanegura	
+kanekake	
+kanekazari	
+kanenone	
+kaneru	
+kanezashi	kanezasi
+kangae	
+kangaeru	
+kangamiru	
+kani	
+kanjiki	kanziki
+kanmuri	
+kanmurinohimo	
+kanna	
+kannagi	
+kannuki	
+kano	
+kanoe	
+kanoko	
+kanoto	
+kansuru	
+kanzashi	kanzasi
+kanzou	
+kao	
+kaori	
+kaorigusa	
+kaoru	
+kara	
+karada	
+karageru	
+karai	
+karakau	
+karakuri	
+karamaru	
+karameru	
+karamu	
+karamushi	karamusi
+karanashi	karanasi
+karanshi	karansi
+karashi	karasi
+karashiae	karasiae
+karasu	
+karasukinomimi	
+karasumi	
+karasuuri	
+karatachi	karatati
+karaushi	karausi
+karazao	
+kare	
+karei	
+kareii	
+karekinone	
+kareru	
+kari	
+karigane	
+kariine	
+karimo	
+karimogari	
+kariru	
+kariumu	
+kariyasu	
+karizumai	
+karonjiru	karonziru
+karonzuru	
+karoyaka	
+karu	
+karui	
+karukuutsu	karukuutu
+karushiumu	karusiumu
+kasa	
+kasabuta	
+kasamu	
+kasanaru	
+kasane	
+kasanegoromo	
+kasaneru	
+kasasagi	
+kase	
+kasegu	
+kashi	kasi
+kashigeru	kasigeru
+kashigu	kasigu
+kashiko	kasiko
+kashikoi	kasikoi
+kashikomaru	kasikomaru
+kashikoshi	kasikosi
+kashimashii	kasimasii
+kashira	kasira
+kashiwa	kasiwa
+kashizuku	kasizuku
+kasu	
+kasube	
+kasugai	
+kasui	
+kasuka	
+kasumeru	
+kasumetoru	
+kasumi	
+kasumu	
+kasureru	
+kasuri	
+kasuru	
+kata	
+kataashi	kataasi
+katabuku	
+katachi	katati
+katachigayoi	katatigayoi
+katadoru	
+katae	
+katagata	
+katageru	
+katai	
+katajikenai	katazikenai
+kataki	
+katakoto	
+kataku	
+katakuna	
+katakunaru	
+katakutoru	
+katamari	
+katamaru	
+katame	
+katameru	
+katami	
+katamini	
+kataminomono	
+katamukeru	
+katamuku	
+katana	
+katanosageo	
+katanugu	
+katarau	
+kataru	
+katashiro	katasiro
+katatagai	
+katatsumuri	katatumuri
+katawara	
+katayoru	
+kate	
+katsu	katu
+katsugu	katugu
+katsuo	katuo
+katsuomushi	katsuomusi,katuomushi
+katsura	katura
+katsute	katute
+katte	
+kau	
+kawa	
+kawagoromo	
+kawagutsu	kawagutu
+kawahagi	
+kawakasu	
+kawaki	
+kawaku	
+kawara	
+kawarage	
+kawarayanagi	
+kawarayomogi	
+kawari	
+kawaru	
+kawarugawaru	
+kawasemi	
+kawasu	
+kawauso	
+kawaya	
+kawazu	
+kaya	
+kayou	
+kayowai	
+kayu	
+kayugaru	
+kayui	
+kaza	
+kazari	
+kazarike	
+kazaru	
+kazashi	kazasi
+kazasu	
+kaze	
+kazoeru	
+kazu	
+kazuki	
+kazunoko	
+kazura	
+kazutori	
+ke	
+keba	
+kechi	keti
+kedamono	
+kedashi	kedasi
+keganagai	
+kegarawashii	kegarawasii
+kegare	
+kegareru	
+kegasu	
+kegoromo	
+kei	
+keigamae	
+keisuru	
+kekazari	
+keki	
+kemari	
+kemisuru	
+kemono	
+kemudashi	kemudasi
+kemui	
+kemuri	
+kemuru	
+kemushi	kemusi
+kemushiro	kemusiro
+ken	
+kenasu	
+kenken	
+kenuki	
+kera	
+keri	
+keru	
+kesa	
+keshikakeru	kesikakeru
+kesu	
+kesuru	
+keta	
+ketsu	ketu
+kewashii	kewasii
+keyaki	
+kezume	
+kezuru	
+kezushikeru	kezusikeru
+ki	
+kiba	
+kibi	
+kibisake	
+kibishii	kibisii
+kibisu	
+kichi	kiti
+kida	
+kidetsukutsutaooyumi	kidetukututaooyumi
+kieru	
+kigaagarimusu	
+kigire	
+kihada	
+kii	
+kiichigo	kiitigo
+kiiro	
+kiiroi	
+kiito	
+kiji	kizi
+kikanai	
+kike	
+kikime	
+kikoeru	
+kikori	
+kikoru	
+kiku	
+kikui	
+kikuimushi	kikuimusi
+kikuitadaki	
+kikurage	
+kikusu	
+kimaru	
+kime	
+kimeru	
+kimi	
+kimo	
+kin	
+kinchiyaku	kintiyaku
+kine	
+kiniiri	
+kinma	
+kinoe	
+kinoko	
+kinoto	
+kinotoge	
+kinu	
+kinugasa	
+kinunoaya	
+kinuta	
+kinyou	
+kirai	
+kirameku	
+kirara	
+kirau	
+kire	
+kireru	
+kiri	
+kirigirisu	
+kirikabu	
+kirimado	
+kirimi	
+kiriwara	
+kiroguramu	
+kiromeetoru	
+kirorittoru	
+kiru	
+kisaki	
+kisasage	
+kiseru	
+kishi	kisi
+kishigatakai	kisigatakai
+kishimu	kisimu
+kishiru	kisiru
+kisou	
+kissaki	
+kisu	
+kita	
+kitaeru	
+kitanai	
+kitaru	
+kitasu	
+kitsu	kitu
+kitsune	kitune
+kiwa	
+kiwada	
+kiwamari	
+kiwamaru	
+kiwameru	
+kiwami	
+kiyoi	
+kiyomaru	
+kiyomeru	
+kizahashi	kizahasi
+kizami	
+kizamu	
+kizashi	kizasi
+kizasu	
+kizu	
+kizuitami	
+kizuku	
+kizuna	
+kizutsukeru	kizutukeru
+kizutsuku	kizutuku
+kko	
+ko	
+kobachi	kobati
+kobako	
+kobamu	
+kobato	
+kobihetsurau	kobiheturau
+kobiru	
+koboke	
+kobone	
+koboreru	
+kobosu	
+kobotsu	kobotu
+kobu	
+kobunagusa	
+kobune	
+kobura	
+kobushi	kobusi
+kochi	koti
+kodama	
+kodanuki	
+kodomo	
+koe	
+koeda	
+koeru	
+kogame	
+kogane	
+kogarashi	kogarasi
+kogareru	
+kogasu	
+kogeru	
+kogoeru	
+kogome	
+kogomu	
+kogoraseru	
+kogorasu	
+kogoru	
+kogu	
+kohada	
+kohai	
+kohaze	
+kohitsuji	kohitsuzi,kohituji
+koi	
+koinegau	
+koinegawakuha	
+koishi	koisi
+koishii	koisii
+koishitau	koisitau
+kojika	kozika
+kojireru	kozireru
+kojiri	koziri
+kojiru	koziru
+kojishi	kojisi,kozishi
+kokage	
+koke	
+kokera	
+koki	
+koko	
+kokochiyoi	kokotiyoi
+kokoni	
+kokono	
+kokonotsu	kokonotu
+kokoro	
+kokorogatagau	
+kokoromidareru	
+kokoromiru	
+kokoroyoi	
+kokorozashi	kokorozasi
+kokorozasu	
+koku	
+kokubi	
+kokumotsu	kokumotu
+kokutan	
+kokuzoumushi	kokuzoumusi
+koma	
+komai	
+komaka	
+komakai	
+komaneku	
+komanuku	
+komaru	
+kome	
+komegura	
+komekami	
+komeru	
+komi	
+komichi	komiti
+komo	
+komogomo	
+komono	
+komoru	
+komu	
+komugi	
+komura	
+kon	
+kona	
+konagaki	
+konamochi	konamoti
+konatsume	konatume
+koneawaseru	
+koneru	
+konida	
+kono	
+konomi	
+konomu	
+konoshiro	konosiro
+konoyouna	
+konoyouni	
+konzu	
+koori	
+koorogi	
+kooru	
+koraeru	
+korashimeru	korasimeru
+korasu	
+kore	
+korera	
+kori	
+koriru	
+koro	
+korobu	
+korogaru	
+korogasu	
+korogeru	
+koromo	
+koromokake	
+koronbiumu	
+korosu	
+koru	
+kosame	
+koshi	kosi
+koshibone	kosibone
+koshikake	kosikake
+koshikakeru	kosikakeru
+koshiki	kosiki
+koshimoto	kosimoto
+koshiraeru	kosiraeru
+kosogeru	
+kosu	
+kosui	
+kosureru	
+kosuru	
+kotae	
+kotaeru	
+kote	
+koto	
+kotoba	
+kotobagauruwashii	kotobagauruwasii
+kotobuki	
+kotobuku	
+kotogoto	
+kotogotoku	
+kotohogu	
+kotonaru	
+kotowari	
+kotowaru	
+kotowaza	
+kotsu	kotu
+kou	
+koubashii	koubasii
+kouboumugi	
+kougai	
+kouji	kouzi
+koujiru	kouziru
+koumori	
+koumuru	
+kounotori	
+kouri	
+kourougaookii	
+kouru	
+koushi	kousi
+kousu	
+kouzo	
+kowa	
+kowagaru	
+kowai	
+kowareru	
+kowasu	
+koya	
+koyashi	koyasi
+koyasu	
+koyomi	
+kozakashii	kozakasii
+kozato	
+kozoru	
+kozue	
+ku	
+kubaru	
+kubi	
+kubihaneru	
+kubikase	
+kubikazari	
+kubiki	
+kubikiru	
+kubireru	
+kubiru	
+kubisu	
+kubo	
+kubomaru	
+kubomi	
+kubomu	
+kuchi	kuti
+kuchibashi	kuchibasi,kutibashi
+kuchibiru	kutibiru
+kuchigayugamu	kutigayugamu
+kuchihige	kutihige
+kuchimoto	kutimoto
+kuchinashi	kuchinasi,kutinashi
+kuchinohibi	kutinohibi
+kuchiru	kutiru
+kuchisaki	kutisaki
+kuchisosogu	kutisosogu
+kuchisusugu	kutisusugu
+kuchiwaki	kutiwaki
+kuchizusamu	kutizusamu
+kuda	
+kudakeru	
+kudaku	
+kudan	
+kudari	
+kudaru	
+kudasaru	
+kudasu	
+kude	
+kudoi	
+kudokudo	
+kugi	
+kugiri	
+kugiru	
+kugui	
+kugumaru	
+kugurido	
+kuguru	
+kui	
+kuichigau	kuitigau
+kuimono	
+kuiru	
+kuji	kuzi
+kujikeru	kuzikeru
+kujiku	kuziku
+kujira	kuzira
+kujiri	kuziri
+kujiru	kuziru
+kukeru	
+kuki	
+kuku	
+kukurigami	
+kukuru	
+kuma	
+kumazemi	
+kume	
+kumi	
+kumihimo	
+kumisuru	
+kumo	
+kumori	
+kumoru	
+kumu	
+kun	
+kuni	
+kunitsukami	kunitukami
+kunugi	
+kunzuru	
+kuooto	
+kura	
+kuraberu	
+kurai	
+kuramu	
+kurasu	
+kurau	
+kurawasu	
+kure	
+kurenai	
+kureru	
+kuri	
+kurige	
+kuriya	
+kuro	
+kurodake	
+kurogane	
+kurogome	
+kuroi	
+kurokami	
+kurokibi	
+kurokurige	
+kuronawa	
+kurozumu	
+kuru	
+kurubushi	kurubusi
+kuruma	
+kurumagi	
+kurumazaki	
+kurumeku	
+kurumu	
+kuruoshii	kuruosii
+kururiya	
+kurushii	kurusii
+kurushimeru	kurusimeru
+kurushimu	kurusimu
+kuruu	
+kuruwa	
+kusa	
+kusabi	
+kusabie	
+kusabuki	
+kusagiru	
+kusai	
+kusakanmuri	
+kusame	
+kusami	
+kusamura	
+kusanomi	
+kusanomuragari	
+kusarasu	
+kusare	
+kusareru	
+kusari	
+kusaru	
+kusasu	
+kusatori	
+kuse	
+kuseni	
+kushami	kusyami
+kushi	kusi
+kushige	kusige
+kushikezuru	kusikezuru
+kushiki	kusiki
+kushikumo	kusikumo
+kushiro	kusiro
+kuso	
+kusu	
+kusuberu	
+kusuburu	
+kusuguru	
+kusunoki	
+kusuri	
+kusushi	kususi
+kutabireru	
+kute	
+kutsu	kutu
+kutsubami	kutubami
+kutsugaeru	kutugaeru
+kutsugaesu	kutugaesu
+kutsukazari	kutukazari
+kutsurogu	kuturogu
+kutsushiki	kutsusiki,kutushiki
+kutsushita	kutsusita,kutushita
+kutsuwa	kutuwa
+kuu	
+kuwa	
+kuwadateru	
+kuwaeru	
+kuwai	
+kuwanomi	
+kuwashii	kuwasii
+kuwawaru	
+kuyamu	
+kuyashii	kuyasii
+kuyurasu	
+kuzu	
+kuzununo	
+kuzure	
+kuzurekakaru	
+kuzureru	
+kuzusu	
+kya	
+kyaku	
+kyan	
+kyo	
+kyoku	
+kyou	
+kyuku	
+kyuu	
+ma	
+maa	
+mabara	
+mabayui	
+maboroshi	maborosi
+mabuchi	mabuti
+mabushi	mabusi
+mabushii	mabusii
+mabuta	
+machi	mati
+mada	
+madaharanuho	
+madara	
+madarauma	
+madaraushi	madarausi
+made	
+mado	
+madoka	
+madou	
+madowasu	
+mae	
+maedare	
+maekake	
+maga	
+magai	
+magaki	
+magariba	
+magaru	
+mage	
+mageashi	mageasi
+magemono	
+mageru	
+magete	
+magirasu	
+magirawashii	magirawasii
+magirawasu	
+magire	
+magireru	
+mago	
+magokoro	
+maguneshiumu	magunesiumu
+maguro	
+magusa	
+magusagura	
+magusakau	
+mahiru	
+mai	
+mainai	
+mainau	
+mairu	
+maji	mazi
+majieru	mazieru
+majikoru	mazikoru
+majinai	mazinai
+majinau	mazinau
+majiri	maziri
+majiriau	maziriau
+majirogu	mazirogu
+majiru	maziru
+majiwaru	maziwaru
+makanau	
+makari	
+makaseru	
+makasu	
+makeru	
+maki	
+makiba	
+makigamae	
+makigane	
+makihada	
+makomo	
+makoto	
+makotoni	
+maku	
+makura	
+makureru	
+makuru	
+mama	
+mame	
+mamegara	
+mamejiru	mameziru
+mami	
+mamidanuki	
+mamieru	
+mamireru	
+mamori	
+mamoru	
+mamushi	mamusi
+man	
+mana	
+manabiya	
+manabu	
+managatsuo	managatuo
+manaita	
+manajiri	manaziri
+manako	
+manazuru	
+maneku	
+mangan	
+manimani	
+manji	manzi
+manugareru	
+manukareru	
+mare	
+mari	
+maro	
+marobu	
+maroudo	
+maroyaka	
+maru	
+marui	
+maruki	
+marukibashi	marukibasi
+marumeru	
+maruyaki	
+masa	
+masakari	
+masaki	
+masame	
+masani	
+masanibeshi	masanibesi
+masaru	
+mashi	masi
+mashimasu	masimasu
+mashite	masite
+massugu	
+massugudetakai	
+masu	
+masugata	
+masuru	
+mata	
+matagaru	
+matagu	
+matagura	
+matano	
+matataku	
+mate	
+mato	
+matoi	
+matomaru	
+matomeru	
+matou	
+matsu	matu
+matsuge	matuge
+matsuri	maturi
+matsurigoto	maturigoto
+matsuru	maturu
+matsuwaru	matuwaru
+matsuyani	matuyani
+mattaku	
+mattashi	mattasi
+mau	
+mawari	
+mawaru	
+mawashi	mawasi
+mawasu	
+mayou	
+mayu	
+mayumi	
+mayuzumi	
+mazaru	
+mazeru	
+mazu	
+mazushii	mazusii
+me	
+meawaseru	
+mebae	
+mebaeru	
+mebaru	
+mechi	meti
+mederu	
+medetaikumo	
+medogi	
+meetoru	
+megawara	
+megumi	
+megumu	
+megurasu	
+meguri	
+meguriyuku	
+meguru	
+mehajiki	mehaziki
+mehitsuji	mehitsuzi,mehituji
+mei	
+meisuru	
+meitadaki	
+mejika	mezika
+mejiri	meziri
+mejirushinonuno	mejirusinonuno,mezirushinonuno
+mekake	
+mekata	
+mekki	
+mekura	
+mekuru	
+mekuwaseru	
+mekuwasu	
+memai	
+men	
+meoto	
+meshi	mesi
+meshii	mesii
+mesu	
+metoru	
+metsu	metu
+meu	
+mezaru	
+mezurashii	mezurasii
+mi	
+miageru	
+michi	miti
+michibiku	mitibiku
+michiru	mitiru
+mida	
+midara	
+midare	
+midareru	
+midari	
+midarigamashii	midarigamasii
+midarini	
+midaru	
+midasu	
+midori	
+midorigo	
+mienu	
+mieru	
+migaku	
+migarui	
+migi	
+migiri	
+migiwa	
+migoi	
+migomoru	
+migoro	
+mihari	
+miharu	
+mijikai	mizikai
+mijime	mizime
+mika	
+mikado	
+miki	
+miko	
+mikotonori	
+mikuri	
+mimakaru	
+mimashi	mimasi
+mimawasu	
+mimeyoi	
+mimi	
+mimidama	
+mimidare	
+mimikazari	
+mimikiri	
+mimikiru	
+mimikuso	
+miminagusa	
+miminari	
+mimishii	mimisii
+mimizatoi	
+mimizu	
+mimizuku	
+min	
+mina	
+minagiru	
+minagoroshi	minagorosi
+minami	
+minamoto	
+minashigo	minasigo
+minato	
+mine	
+minikui	
+minikuisugata	
+minna	
+mino	
+minori	
+minoru	
+minowata	
+mio	
+miri	
+miriguramu	
+mirimeetoru	
+miririttoru	
+miru	
+misago	
+misaki	
+misao	
+misasagi	
+mise	
+miseru	
+miso	
+misogi	
+misoka	
+misonawasu	
+mitamaya	
+mitasu	
+mitomeru	
+mitsu	mitu
+mitsugu	mitugu
+mitsumeru	mitumeru
+mitsurou	miturou
+mitsuru	mituru
+mittsu	
+miuchi	miuti
+miya	
+miyabi	
+miyabiyaka	
+miyako	
+miyakogae	
+miyouga	
+mizo	
+mizogoisagi	
+mizore	
+mizu	
+mizuai	
+mizuchi	mizuti
+mizugane	
+mizugiwa	
+mizukaki	
+mizukara	
+mizumori	
+mizunoe	
+mizunoto	
+mizura	
+mizutade	
+mizuumi	
+mo	
+mochi	moti
+mochiasobu	motiasobu
+mochiawa	motiawa
+mochigome	motigome
+mochii	motii
+mochiiru	motiiru
+mochinoki	motinoki
+mochizao	motizao
+mochizuki	motizuki
+modaeru	
+modasu	
+modoki	
+modoru	
+modosu	
+moeagaru	
+moenokori	
+moeru	
+moesashi	moesasi
+mofuku	mohuku
+mogaku	
+mogasa	
+mogiru	
+mogu	
+mogubuku	
+mogura	
+moguramochi	moguramoti
+moguru	
+mogusa	
+moji	mozi
+mojiri	moziri
+mojiru	moziru
+mokko	
+moku	
+mokume	
+mokusei	
+mokusuru	
+momennonuno	
+momeru	
+momi	
+momigara	
+momiji	momizi
+momo	
+momu	
+mon	
+monban	
+monme	
+mono	
+monoimi	
+monomi	
+monosashi	monosasi
+monoui	
+monukeru	
+moppara	
+morasu	
+morau	
+moreru	
+mori	
+moro	
+moroi	
+moromi	
+moromoro	
+moru	
+moshi	mosi
+moshikuha	mosikuha
+moshikuwa	mosikuwa
+mosu	
+mosuso	
+motageru	
+motai	
+motarasu	
+motareru	
+mote	
+moteasobu	
+motenasu	
+moteru	
+moto	
+motodori	
+motoi	
+motomeru	
+motooru	
+motoru	
+motouru	
+motoyori	
+motoyui	
+motsu	motu
+motsureru	motureru
+motte	
+mottomo	
+mou	
+mouderu	
+moukaru	
+mouke	
+moukeru	
+mousen	
+moushi	mousi
+mousu	
+moya	
+moyaibune	
+moyasu	
+moyau	
+moyoosu	
+moyousu	
+mozu	
+mu	
+muchi	muti
+muchiutsu	muchiutu,mutiutsu
+mugi	
+mugigayu	
+mugiko	
+mugikogashi	mugikogasi
+mugoi	
+mugura	
+mui	
+mujina	muzina
+mukabaki	
+mukaeru	
+mukai	
+mukaiau	
+mukashi	mukasi
+mukatsuku	mukatuku
+mukau	
+muke	
+mukeru	
+muki	
+muko	
+mukou	
+muku	
+mukuge	
+mukuinu	
+mukuiru	
+mukuro	
+muna	
+munagai	
+munagi	
+munashii	munasii
+mune	
+mura	
+muragaru	
+murasaki	
+murasu	
+mure	
+mureiru	
+mureru	
+muro	
+muroa	
+muroaji	muroazi
+musaborioshimu	musaboriosimu
+musaboru	
+musasabi	
+musebu	
+museru	
+mushi	musi
+mushiatsui	mushiatui,musiatsui
+mushiba	musiba
+mushibamu	musibamu
+mushimeshi	musimesi
+mushiritoru	musiritoru
+mushiro	musiro
+mushiru	musiru
+musouami	
+musu	
+musubu	
+musume	
+musumemuko	
+mutsu	mutu
+mutsubu	mutubu
+mutsukashii	mutsukasii,mutukashii
+mutsuki	mutuki
+mutsumajii	mutsumazii,mutumajii
+mutsumu	mutumu
+mutsuyubi	mutuyubi
+muttsu	
+muzukashii	muzukasii
+myaku	
+myou	
+myouto	
+myuku	
+myuu	
+na	
+nabe	
+nabezumi	
+nabiku	
+naburu	
+nachi	nati
+nada	
+nadameru	
+naderu	
+nado	
+nae	
+naeru	
+nagaame	
+nagae	
+nagai	
+nagaihari	
+nagajuban	nagazyuban
+nagame	
+nagameru	
+nagara	
+nagaraeru	
+nagare	
+nagareru	
+nagasa	
+nagashi	nagasi
+nagashime	nagasime
+nagasu	
+nage	
+nagekawashii	nagekawasii
+nageki	
+nageku	
+nageru	
+nageutsu	nageutu
+nagi	
+nagisa	
+nagomu	
+nagoyaka	
+nagu	
+naguru	
+nagusameru	
+nagusamu	
+nai	
+naigashiro	naigasiro
+najimu	nazimu
+naka	
+nakaba	
+nakagai	
+nakama	
+nakare	
+naki	
+nakigoe	
+nakihaha	
+nakoudo	
+naku	
+nama	
+namagane	
+namagusa	
+namagusai	
+namajii	namazii
+namakeru	
+namakura	
+namamekashii	namamekasii
+namameku	
+namari	
+namaru	
+namasu	
+namazu	
+nameraka	
+nameru	
+nameshigawa	namesigawa
+namesu	
+nametoru	
+nami	
+namida	
+namisuru	
+namuchi	namuti
+nan	
+nana	
+naname	
+nanameniyuku	
+nanatsu	nanatu
+nani	
+nanigashi	nanigasi
+nanji	nanzi
+nannantosu	
+nano	
+nanzo	
+nao	
+naoi	
+naoki	
+naoru	
+naosu	
+nara	
+naraberu	
+narabini	
+narabitatsu	narabitatu
+narabu	
+narai	
+naranoki	
+narasu	
+narau	
+nare	
+nareru	
+nareshika	naresika
+nari	
+naru	
+naruhajikami	naruhazikami
+nasake	
+nase	
+nashi	nasi
+nasu	
+nata	
+natsu	natu
+natsukashii	natsukasii,natukashii
+natsukashimu	natsukasimu,natukashimu
+natsukeru	natukeru
+natsuku	natuku
+natsume	natume
+natsuzemi	natuzemi
+nau	
+nawa	
+nawate	
+nayamashii	nayamasii
+nayamasu	
+nayami	
+nayamu	
+nayoyakana	
+nazo	
+nazoraeru	
+nazukeru	
+nazumu	
+nazuna	
+ne	
+nebari	
+nebaritsuku	nebarituku
+nebaru	
+nebatsuchi	nebatsuti,nebatuchi
+neburu	
+nechi	neti
+neesan	
+negai	
+negau	
+negi	
+negira	
+negirai	
+negirau	
+negoto	
+negura	
+neguruma	
+nei	
+neiki	
+neiru	
+nejikeru	nezikeru
+nejikiru	nezikiru
+nejimawasu	nezimawasu
+nejireru	nezireru
+nejiri	neziri
+nejiru	neziru
+nekasu	
+nekirimushi	nekirimusi
+neko	
+nemoto	
+nemui	
+nemunoki	
+nemuru	
+nen	
+nengoro	
+nerai	
+nerau	
+neri	
+neru	
+neta	
+netamu	
+netsu	netu
+neya	
+nezu	
+nezumi	
+nezumimochi	nezumimoti
+nezumiotoshi	nezumiotosi
+ni	
+nibe	
+nibu	
+nibui	
+niburu	
+nichi	niti
+nie	
+nieru	
+nigai	
+nigana	
+nigaru	
+nigasu	
+nigekamu	
+nigeru	
+nigiri	
+nigiru	
+nigiwai	
+nigiwasu	
+nigiwau	
+nigiyaka	
+nigoi	
+nigorizake	
+nigoru	
+nigosu	
+nigura	
+niguruma	
+nii	
+niiniizemi	
+niji	nizi
+nijimu	nizimu
+nijiru	niziru
+nijuu	nizyuu
+nikawa	
+nikibi	
+niku	
+nikui	
+nikumu	
+nikurashii	nikurasii
+nikushimi	nikusimi
+nin	
+nina	
+ninai	
+ninau	
+ninjin	ninzin
+ninniku	
+nio	
+nioi	
+nioibukuro	
+niou	
+niowaseru	
+nira	
+niragu	
+nirami	
+niramu	
+nire	
+niregamu	
+niru	
+nise	
+nisemono	
+nishi	nisi
+nishidochi	nishidoti,nisidochi
+nishiki	nisiki
+nishikihebi	nisikihebi
+nishin	nisin
+niwa	
+niwaka	
+niwakaame	
+niwakani	
+niwatazumi	
+niwatori	
+niwaume	
+niwayanagi	
+niwazakura	
+niyasu	
+no	
+nobasu	
+nobe	
+noberu	
+nobi	
+nobiru	
+nobori	
+noboru	
+noboseru	
+nobosu	
+nobu	
+nochi	noti
+nodo	
+nogan	
+nogareru	
+nogasu	
+noge	
+nogeitou	
+nogeshi	nogesi
+nogi	
+nogome	
+nokeru	
+noki	
+noko	
+nokogiri	
+nokogirinooto	
+nokori	
+nokoru	
+nokosu	
+noku	
+nomi	
+nomihosu	
+nominosaki	
+nomu	
+non	
+nonoshiru	nonosiru
+nori	
+noro	
+noroi	
+noroshi	norosi
+norou	
+noru	
+noseru	
+noshi	nosi
+nosu	
+notamau	
+notamawaku	
+notto	
+nottoru	
+nou	
+nouzuru	
+nozoku	
+nozomu	
+nu	
+nude	
+nue	
+nugeru	
+nugu	
+nuguu	
+nuikagari	
+nuime	
+nuitori	
+nuka	
+nukamiso	
+nukaru	
+nukarumi	
+nukasu	
+nukazuku	
+nukegara	
+nukeru	
+nuki	
+nukinderu	
+nuku	
+numa	
+nume	
+nunawa	
+nuno	
+nunoito	
+nunoko	
+nurasu	
+nureru	
+nuri	
+nuru	
+nurumayu	
+nusa	
+nushi	nusi
+nusumi	
+nusumimiru	
+nusumu	
+nuta	
+nuu	
+nya	
+nyaku	
+nyo	
+nyoku	
+nyou	
+nyu	
+nyuu	
+o	
+oba	
+obashima	obasima
+obi	
+obidama	
+obidome	
+obieru	
+obiru	
+obitadashii	obitadasii
+obiyakasu	
+oboeru	
+oboreru	
+oboro	
+obosu	
+ochi	oti
+ochiba	otiba
+ochiiru	otiiru
+ochikomuoto	otikomuoto
+ochiru	otiru
+ochitsuku	ochituku,otitsuku
+odateru	
+odayaka	
+oderu	
+odokasu	
+odorokasu	
+odoroku	
+odoru	
+odoshi	odosi
+odosu	
+oeru	
+ogamu	
+ogawa	
+ogi	
+oginau	
+ogori	
+ogoru	
+ogosoka	
+ohitsuji	ohitsuzi,ohituji
+oi	
+oiboreru	
+oiru	
+oite	
+oitsuku	oituku
+ojika	ozika
+ojiru	oziru
+oka	
+okasu	
+okawa	
+oke	
+okera	
+okeru	
+oki	
+okina	
+okiru	
+okite	
+okitsu	okitu
+okitsuchi	okitsuti,okituchi
+okonau	
+okori	
+okoru	
+okoshi	okosi
+okosu	
+okotaru	
+okoze	
+oku	
+okubi	
+okubukai	
+okufukai	okuhukai
+okugaki	
+okumaru	
+okumi	
+okurasu	
+okureru	
+okuribito	
+okurime	
+okurimono	
+okurina	
+okuru	
+okusuru	
+okute	
+omaru	
+omo	
+omodaka	
+omoeraku	
+omogai	
+omoi	
+omokage	
+omomuki	
+omomuku	
+omomuro	
+omomuroni	
+omonau	
+omonerikumisuru	
+omoneru	
+omonmiru	
+omonpakaru	
+omonpakuru	
+omori	
+omote	
+omou	
+omouni	
+on	
+onagazaru	
+onaji	onazi
+onamomi	
+oni	
+onigashira	onigasira
+onihirugusa	
+oniyarai	
+onna	
+onnanoazana	
+ono	
+ononoku	
+onoono	
+onore	
+onozukara	
+onozuto	
+oo	
+ooari	
+oobako	
+ooban	
+oobone	
+oobora	
+oochi	ooti
+oodate	
+oogai	
+oogama	
+oogame	
+oogane	
+oogari	
+oogo	
+oogoe	
+oogoto	
+oohige	
+ooi	
+ooini	
+ooji	oozi
+oojika	oozika
+ookama	
+ookami	
+ookii	
+ookinakao	
+ookuchi	ookuti
+ookumonoiu	
+oomizu	
+oomune	
+oonami	
+oonira	
+oonome	
+oonomi	
+oose	
+ooshi	oosi
+ooshika	oosika
+oosuki	
+ootade	
+ootori	
+ootsuzumi	ootuzumi
+oou	
+oowa	
+ooyake	
+ooyamadori	
+ooyoso	
+ooyumi	
+oozaru	
+oozuna	
+oozutsu	oozutu
+ore	
+oreru	
+ori	
+oriamari	
+oriru	
+orochi	oroti
+orogamu	
+oroka	
+oroshi	orosi
+orosu	
+oru	
+osa	
+osae	
+osaeru	
+osamaru	
+osameru	
+osanai	
+oshaberi	osyaberi
+oshi	osi
+oshidori	osidori
+oshie	osie
+oshieru	osieru
+oshii	osii
+oshikiuo	osikiuo
+oshimu	osimu
+osoi	
+osore	
+osoreawateru	
+osoreru	
+osoroshii	osorosii
+osoru	
+osou	
+osowareru	
+osowaru	
+ossharu	
+osu	
+osumiumu	
+osunoinoko	
+osuuma	
+oto	
+otogai	
+otoko	
+otokodate	
+otokogi	
+otokoyomogi	
+otome	
+otori	
+otoroeru	
+otoru	
+otoshiana	otosiana
+otoshiireru	otosiireru
+otoshimeru	otosimeru
+otosu	
+otouto	
+otozureru	
+otsu	otu
+otsukurisuru	otukurisuru
+otto	
+ou	
+ouchi	outi
+ouchou	outyou
+ougi	
+ougo	
+ouna	
+oushi	ousi
+ouu	
+ouyoso	
+owari	
+owaru	
+owasu	
+oya	
+oyaimo	
+oyaji	oyazi
+oyayubi	
+oyobi	
+oyobosu	
+oyobu	
+oyogu	
+oyoso	
+ozumi	
+pai	
+peeji	peezi
+pon	
+pondo	
+poroniumu	
+ppanashi	ppanasi
+purachina	puratina
+ra	
+raba	
+rachi	rati
+rachigaaku	ratigaaku
+rai	
+rajiumu	raziumu
+rakkiyou	
+rakkyou	
+raku	
+ran	
+rantan	
+rassuru	
+ratsu	ratu
+re	
+rechi	reti
+refu	rehu
+rei	
+reki	
+rekki	
+ren	
+rengetsutsuji	rengetsutsuzi,rengetutuji
+renji	renzi
+retsu	retu
+ri	
+richi	riti
+richiumu	ritiumu
+rii	
+riki	
+riku	
+rin	
+ritsu	ritu
+rittoru	
+ro	
+rochi	roti
+rojiumu	roziumu
+roku	
+rokuna	
+rokuro	
+ron	
+roo	
+rotsu	rotu
+rou	
+rourou	
+rousoku	
+rousuru	
+ru	
+rui	
+ruteniumu	
+rutsubo	rutubo
+ruuburu	
+ryaku	
+ryo	
+ryoku	
+ryou	
+ryu	
+ryuku	
+ryuu	
+sa	
+saba	
+sabakeru	
+sabaku	
+sabi	
+sabireru	
+sabishii	sabisii
+sabu	
+sachi	sati
+sada	
+sadaka	
+sadamaru	
+sadameru	
+saegiritodomeru	
+saegiru	
+saeru	
+saezuru	
+saga	
+sagare	
+sagaru	
+sagasu	
+sageru	
+sagesumu	
+sagi	
+saguru	
+sai	
+sainamu	
+saiwai	
+saji	sazi
+saka	
+sakabari	
+sakadaru	
+sakaeru	
+sakai	
+sakaki	
+sakamichi	sakamiti
+sakamori	
+sakan	
+sakana	
+sakananoko	
+sakanoboru	
+sakarau	
+sakaru	
+sakasa	
+sakasama	
+sakashii	sakasii
+sakashima	sakasima
+sakatsubo	sakatubo
+sakazuki	
+sake	
+sakebata	
+sakebu	
+sakeire	
+sakekoshi	sakekosi
+sakeme	
+sakenomoto	
+sakenotsukasa	sakenotukasa
+sakeru	
+sakesakana	
+saketsubo	saketubo
+saki	
+sakibarai	
+sakigake	
+sakini	
+sakitoru	
+sako	
+saku	
+sakura	
+sama	
+samasu	
+samatagerareru	
+samatageru	
+samayou	
+same	
+sameru	
+samishii	samisii
+samui	
+samurai	
+san	
+sanada	
+sanagi	
+sanchi	santi
+sane	
+sanjuu	sanzyuu
+sanransuru	
+sanshouuo	sansyouuo
+santaru	
+sanzui	
+sao	
+saosasu	
+sara	
+saraeru	
+sarake	
+sarani	
+sarashi	sarasi
+sarasu	
+sarau	
+saru	
+sasa	
+sasaerareru	
+sasaeru	
+sasage	
+sasageru	
+sasara	
+sasaru	
+sasayaki	
+sasayaku	
+sashi	sasi
+sashigane	sasigane
+sashihasamu	sasihasamu
+sashikomu	sasikomu
+sashimaneku	sasimaneku
+sashitomeru	sasitomeru
+sashiwatashi	sasiwatasi
+sashizubata	sasizubata
+sasori	
+sasou	
+sasu	
+sasuga	
+sasumushi	sasumusi
+sasuru	
+sate	
+sato	
+satoi	
+satoru	
+satosu	
+satoukibi	
+satsu	satu
+satsuki	satuki
+satto	
+sawa	
+sawagashii	sawagasii
+sawagu	
+sawara	
+sawaru	
+sawasu	
+sawayaka	
+saya	
+sayori	
+sazaki	
+sazanami	
+sazo	
+sazokashi	sazokasi
+sazoya	
+sazukaru	
+sazukeru	
+se	
+sebamaru	
+sebameru	
+sebone	
+sechi	seti
+sefu	sehu
+segare	
+segukumaru	
+sei	
+seigo	
+seirou	
+seishu	seisyu
+seki	
+sekkachi	sekkati
+seko	
+seku	
+semai	
+semaru	
+semegu	
+semeru	
+semi	
+semuru	
+semushi	semusi
+sen	
+senchi	senti
+senchiguramu	sentiguramu
+senchimeetoru	sentimeetoru
+senchirittoru	sentirittoru
+seniku	
+senjiru	senziru
+senkyuu	
+sensuru	
+sento	
+senzankou	
+senzuru	
+seou	
+seri	
+seriumu	
+seru	
+seseragi	
+seseru	
+seshiumu	sesiumu
+setsu	setu
+seu	
+seuto	
+sewashii	sewasii
+sha	sya
+shaberu	syaberu
+shachi	shati,syachi
+shachihoko	shatihoko,syachihoko
+shagamu	syagamu
+shagareru	syagareru
+shake	syake
+shakkuri	syakkuri
+shaku	syaku
+shakuri	syakuri
+shamo	syamo
+shan	syan
+shi	si
+shiawase	siawase
+shiba	siba
+shibaraku	sibaraku
+shibaru	sibaru
+shibashiba	sibasiba
+shibe	sibe
+shibi	sibi
+shibireru	sibireru
+shibo	sibo
+shibomu	sibomu
+shibori	sibori
+shiboriki	siboriki
+shiboru	siboru
+shibu	sibu
+shibui	sibui
+shibuki	sibuki
+shiburu	siburu
+shichi	shiti,sichi
+shide	side
+shigarami	sigarami
+shigaramu	sigaramu
+shigeku	sigeku
+shigeru	sigeru
+shigeshi	sigesi
+shigi	sigi
+shiguma	siguma
+shii	sii
+shiina	siina
+shiira	siira
+shiiru	siiru
+shiisuru	siisuru
+shiitageru	siitageru
+shiji	shizi,siji
+shijimi	shizimi,sijimi
+shijuu	shizyuu,sijuu
+shika	sika
+shikabane	sikabane
+shikameru	sikameru
+shikamo	sikamo
+shikaredomo	sikaredomo
+shikari	sikari
+shikaru	sikaru
+shikaruni	sikaruni
+shikashi	sikasi
+shikashite	sikasite
+shikato	sikato
+shiki	siki
+shikigawara	sikigawara
+shikii	sikii
+shikimi	sikimi
+shikirini	sikirini
+shikiwara	sikiwara
+shiko	siko
+shikori	sikori
+shikoro	sikoro
+shikoushite	sikousite
+shiku	siku
+shima	sima
+shimaikomu	simaikomu
+shimari	simari
+shimaru	simaru
+shime	sime
+shimeri	simeri
+shimeru	simeru
+shimesu	simesu
+shimi	simi
+shimikomu	simikomu
+shimiru	simiru
+shimo	simo
+shimobe	simobe
+shimogasa	simogasa
+shimoto	simoto
+shimoyake	simoyake
+shimoyashiki	simoyasiki
+shimu	simu
+shin	sin
+shina	sina
+shinabiru	sinabiru
+shinau	sinau
+shinayaka	sinayaka
+shinbashira	sinbasira
+shini	sini
+shinnyou	sinnyou
+shino	sino
+shinobaseru	sinobaseru
+shinobigoto	sinobigoto
+shinobu	sinobu
+shinogi	sinogi
+shinogu	sinogu
+shinsha	shinsya,sinsha
+shinshi	sinsi
+shinu	sinu
+shio	sio
+shiochi	shioti,siochi
+shiokara	siokara
+shiokarai	siokarai
+shioke	sioke
+shioreru	sioreru
+shiori	siori
+shioru	sioru
+shiozuke	siozuke
+shira	sira
+shirabe	sirabe
+shiraberu	siraberu
+shirageru	sirageru
+shirageyone	sirageyone
+shirakage	sirakage
+shirakiji	shirakizi,sirakiji
+shirami	sirami
+shirasagi	sirasagi
+shirase	sirase
+shiraseru	siraseru
+shireru	sireru
+shiri	siri
+shirigai	sirigai
+shiringu	siringu
+shirizokeru	sirizokeru
+shirizoku	sirizoku
+shiro	siro
+shiroari	siroari
+shirogane	sirogane
+shiroginu	siroginu
+shiroi	siroi
+shiroko	siroko
+shirome	sirome
+shirotsuchi	shirotsuti,shirotuchi,sirotsuchi
+shirouo	sirouo
+shiroyomogi	siroyomogi
+shiru	siru
+shirube	sirube
+shirushi	sirusi
+shirusu	sirusu
+shishi	sisi
+shishibishio	sisibisio
+shita	sita
+shitabakama	sitabakama
+shitagaenarasu	sitagaenarasu
+shitagaeru	sitagaeru
+shitagaki	sitagaki
+shitagau	sitagau
+shitagi	sitagi
+shitagura	sitagura
+shitami	sitami
+shitashii	sitasii
+shitashiku	sitasiku
+shitashimu	sitasimu
+shitatameru	sitatameru
+shitataru	sitataru
+shitau	sitau
+shite	site
+shito	sito
+shitogi	sitogi
+shitomi	sitomi
+shitone	sitone
+shitouzu	sitouzu
+shitoyaka	sitoyaka
+shitsu	shitu,sitsu
+shitsuke	shituke,sitsuke
+shitsukeru	shitukeru,sitsukeru
+shiuto	siuto
+shiutome	siutome
+shiwa	siwa
+shiwabuki	siwabuki
+shiwabuku	siwabuku
+shiwai	siwai
+shizu	sizu
+shizuka	sizuka
+shizukaniyuku	sizukaniyuku
+shizuku	sizuku
+shizumaru	sizumaru
+shizumeru	sizumeru
+shizumu	sizumu
+sho	syo
+shoku	syoku
+shokusuru	syokusuru
+shou	syou
+shouga	syouga
+shoujou	shouzyou,syoujou
+shu	syu
+shuchi	shuti,syuchi
+shuku	syuku
+shun	syun
+shungiku	syungiku
+shunme	syunme
+shutsu	shutu,syutsu
+shuu	syuu
+shuuto	syuuto
+shuutome	syuutome
+so	
+soba	
+sobadateru	
+sobadatsu	sobadatu
+sobame	
+sobieru	
+sobofuru	sobohuru
+sochi	soti
+sodachi	sodati
+sodateru	
+sodatsu	sodatu
+sode	
+sodekuchi	sodekuti
+soe	
+soeita	
+soeru	
+soeuma	
+sogi	
+sogo	
+sogu	
+soi	
+soko	
+sokonau	
+sokoneru	
+soku	
+sokuzu	
+soma	
+somaru	
+someru	
+somukeru	
+somuku	
+son	
+sonaeru	
+sonawaru	
+sonemu	
+sono	
+sora	
+soranjiru	soranziru
+sorasu	
+sore	
+soregashi	soregasi
+soreru	
+sori	
+sorikaeru	
+soro	
+soroban	
+soroeru	
+soroi	
+sorou	
+sorowanai	
+soru	
+soshiru	sosiru
+sosogu	
+sosonokasu	
+sosoru	
+sossuru	
+soto	
+sotobori	
+sotsu	sotu
+sou	
+souke	
+sourou	
+soyogu	
+sozoro	
+sozoroni	
+su	
+subaru	
+subashikoi	subasikoi
+subashiri	subasiri
+subayai	
+sube	
+subekaraku	
+suberasu	
+suberu	
+subeshi	subesi
+subete	
+subomeru	
+sudama	
+sudare	
+sudeni	
+sue	
+sueru	
+sugame	
+sugaru	
+sugata	
+suge	
+sugeru	
+sugi	
+sugiru	
+sugoi	
+sugomu	
+sugoroku	
+sugorokuban	
+sugosu	
+sugu	
+sugureru	
+suhada	
+sui	
+suji	suzi
+sukasu	
+suke	
+sukeru	
+sukesou	
+suki	
+sukinoha	
+sukoburu	
+sukoshi	sukosi
+sukoyaka	
+suku	
+sukumo	
+sukumomushi	sukumomusi
+sukumu	
+sukunai	
+sukuu	
+sumai	
+sumanai	
+sumasu	
+sumau	
+sumi	
+sumire	
+sumiyaka	
+sumomo	
+sumu	
+sun	
+suna	
+sunaji	sunazi
+sunao	
+sunatsuchi	sunatsuti,sunatuchi
+sunawachi	sunawati
+sune	
+suneru	
+sunoko	
+suppon	
+suraritoshitemimeyoi	suraritositemimeyoi
+sureru	
+suriheru	
+suru	
+surudoi	
+surudokusuru	
+surume	
+susa	
+susabu	
+susamajii	susamazii
+susamu	
+sushi	susi
+suso	
+susonohida	
+susu	
+susugu	
+susuki	
+susumanai	
+susumehagemasu	
+susumeru	
+susumu	
+susurinaku	
+susuru	
+sutareru	
+sutaru	
+suteoku	
+suteru	
+sutoronchiumu	sutorontiumu
+suu	
+suwae	
+suwaru	
+suzu	
+suzuki	
+suzume	
+suzumu	
+suzuri	
+suzushii	suzusii
+suzushiikaze	suzusiikaze
+suzuyaka	
+ta	
+taba	
+tabakaru	
+tabako	
+tabaneru	
+tabenokoshi	tabenokosi
+taberu	
+tabi	
+tabo	
+tabu	
+taburakasu	
+tabusa	
+tachi	tati
+tachibana	tatibana
+tachikireru	tatikireru
+tachimachi	tatimati
+tachimotooru	tatimotooru
+tachiuo	tatiuo
+tada	
+tadachini	tadatini
+tadanaranu	
+tadani	
+tadareru	
+tadashi	tadasi
+tadashii	tadasii
+tadashiikotoba	tadasiikotoba
+tadashikunai	tadasikunai
+tadasu	
+tadayou	
+tade	
+tadori	
+tadoru	
+tae	
+taeru	
+tafu	tahu
+taga	
+tagaeru	
+tagai	
+tagaini	
+tagane	
+taganeru	
+tagau	
+tagayasu	
+tagirakasu	
+tagiru	
+tagoshi	tagosi
+tagui	
+taguu	
+tai	
+taimai	
+taimatsu	taimatu
+taira	
+tairageru	
+tairagi	
+tairaka	
+tairanisuru	
+taka	
+takaashinonabe	takaasinonabe
+takabe	
+takaburu	
+takadono	
+takai	
+takakukewashii	takakukewasii
+takamaru	
+takameru	
+takamura	
+takamushiro	takamusiro
+takaneru	
+takanna	
+takara	
+takatsuki	takatuki
+take	
+takedakeshii	takedakesii
+takedakeshiisama	takedakesiisama
+takegahikui	
+takegoshi	takegosi
+takemushiro	takemusiro
+takenawa	
+takenokawa	
+takenoko	
+takeru	
+takeshi	takesi
+takeshii	takesii
+taki	
+takigi	
+tako	
+taku	
+takumashii	takumasii
+takumi	
+takumu	
+takuramu	
+takusannoizumi	
+takusuru	
+takuwaeru	
+tama	
+tamae	
+tamago	
+tamaki	
+tamamono	
+tamari	
+tamaru	
+tamashii	tamasii
+tamatama	
+tamato	
+tamau	
+tamawaru	
+tamaya	
+tame	
+tamegi	
+tameiki	
+tameikisuru	
+tamerau	
+tameru	
+tameshi	tamesi
+tamesu	
+tami	
+tamo	
+tamoto	
+tamotsu	tamotu
+tamou	
+tamuro	
+tamushi	tamusi
+tan	
+tana	
+tanabiku	
+tanago	
+tanagokoro	
+tane	
+tani	
+tanigawa	
+tanimizu	
+tanomoshii	tanomosii
+tanomu	
+tanoshii	tanosii
+tanoshimu	tanosimu
+tanuki	
+tao	
+taoreru	
+taosu	
+taoyaka	
+tara	
+tarai	
+tarasu	
+tare	
+taregami	
+tareginu	
+tareru	
+tari	
+tariru	
+tariumu	
+taru	
+taruki	
+tarumeru	
+tarumu	
+tashika	tasika
+tashikameru	tasikameru
+tashikani	tasikani
+tashinameru	tasinameru
+tashinami	tasinami
+tashinamu	tasinamu
+tasogare	
+tassuru	
+tasu	
+tasukaru	
+tasuke	
+tasukeru	
+tasuki	
+tataeru	
+tatakau	
+tataku	
+tatami	
+tatamu	
+tatari	
+tataru	
+tatazumu	
+tate	
+tatefuda	tatehuda
+tategami	
+tateito	
+tatematsuru	tatematuru
+tateru	
+tatoe	
+tatoeru	
+tatsu	tatu
+tatsumi	tatumi
+tattobu	
+tattoi	
+tawa	
+tawagoto	
+tawai	
+tawameru	
+tawamu	
+tawamure	
+tawamureru	
+tawara	
+tayasu	
+tayasui	
+tayori	
+tayoru	
+tayumu	
+tazuna	
+tazuneru	
+tazusaeru	
+tazusawaru	
+te	
+teatsui	teatui
+teboko	
+techi	teti
+tefuki	tehuki
+tegaru	
+tegata	
+teguruma	
+tei	
+tekase	
+teki	
+teko	
+ten	
+tenagazaru	
+tenmado	
+tenmaku	
+tenohira	
+tera	
+terai	
+terasu	
+terau	
+tereru	
+teru	
+tesuri	
+tetsu	tetu
+tetsuke	tetuke
+tetsunokatamari	tetunokatamari
+teu	
+tewa	
+tewazagasubayai	
+to	
+tobari	
+tobasu	
+tobenai	
+tobi	
+tobiagaru	
+tobichiru	tobitiru
+tobira	
+tobiuo	
+tobokeru	
+toboshii	tobosii
+toboso	
+tobosu	
+tobu	
+tobuhi	
+toburau	
+tochi	toti
+tochiyuu	totiyuu
+todana	
+todo	
+todoke	
+todokeru	
+todokooru	
+todoku	
+todomaru	
+todome	
+todomeru	
+todorokasu	
+todoroku	
+toga	
+togameru	
+togaru	
+toge	
+togeru	
+togi	
+togijiru	togiziru
+togiregoe	
+togireru	
+togu	
+toguro	
+toi	
+toiki	
+toishi	toisi
+tojiru	toziru
+tokage	
+tokaki	
+tokari	
+tokasu	
+tokeru	
+toki	
+toko	
+tokoro	
+tokoshibari	tokosibari
+toku	
+toma	
+tomaru	
+tomeba	
+tomeru	
+tomi	
+tomini	
+tomo	
+tomoe	
+tomogara	
+tomonau	
+tomoni	
+tomoshibi	tomosibi
+tomoshibiooi	tomosibiooi
+tomoshii	tomosii
+tomosu	
+tomozuna	
+tomu	
+tomurau	
+ton	
+tonae	
+tonaeru	
+tonari	
+tonaru	
+tonbi	
+toneri	
+toneriko	
+tono	
+tonto	
+too	
+tooi	
+tookunagai	
+toori	
+tooru	
+tooshi	toosi
+toosu	
+tora	
+toraeru	
+torawareru	
+tori	
+toridasu	
+toride	
+torikabuto	
+torikaeru	
+torikago	
+toriko	
+toriku	
+torimidasu	
+torisaru	
+toritsukurou	toritukurou
+toriumu	
+toro	
+torokasu	
+torokeru	
+toru	
+tose	
+toshi	tosi
+toshiyori	tosiyori
+toshokan	tosyokan
+tosshinsuru	
+totemo	
+totonoeru	
+totonou	
+totonowanu	
+totsu	totu
+totsugu	totugu
+tou	
+touge	
+toumaru	
+touru	
+toushin	tousin
+tousu	
+toutobu	
+toutoi	
+toya	
+toyo	
+tozashi	tozasi
+tozasu	
+tsu	tu
+tsuba	tuba
+tsubaki	tubaki
+tsubakura	tubakura
+tsubakuro	tubakuro
+tsubame	tubame
+tsubana	tubana
+tsubasa	tubasa
+tsubi	tubi
+tsubo	tubo
+tsubomeru	tubomeru
+tsubomi	tubomi
+tsubone	tubone
+tsubu	tubu
+tsubureru	tubureru
+tsuburu	tuburu
+tsubusani	tubusani
+tsubusu	tubusu
+tsubute	tubute
+tsubuyaku	tubuyaku
+tsuchi	tsuti,tuchi
+tsuchibue	tsutibue,tuchibue
+tsuchifuru	tsuchihuru,tsutifuru,tuchifuru
+tsuchikau	tsutikau,tuchikau
+tsuchikemuri	tsutikemuri,tuchikemuri
+tsuchikure	tsutikure,tuchikure
+tsuchinoe	tsutinoe,tuchinoe
+tsuchinoto	tsutinoto,tuchinoto
+tsudau	tudau
+tsudou	tudou
+tsue	tue
+tsuga	tuga
+tsugai	tugai
+tsuge	tuge
+tsugeru	tugeru
+tsugi	tugi
+tsugomori	tugomori
+tsugu	tugu
+tsugumi	tugumi
+tsugumu	tugumu
+tsugunai	tugunai
+tsugunau	tugunau
+tsui	tui
+tsuibamu	tuibamu
+tsuide	tuide
+tsuieru	tuieru
+tsuini	tuini
+tsuitachi	tsuitati,tuitachi
+tsuitate	tuitate
+tsuiyasu	tuiyasu
+tsuizu	tuizu
+tsuji	tsuzi,tuji
+tsuka	tuka
+tsukae	tukae
+tsukaeru	tukaeru
+tsukai	tukai
+tsukamaeru	tukamaeru
+tsukamaru	tukamaru
+tsukamu	tukamu
+tsukaneru	tukaneru
+tsukarasu	tukarasu
+tsukareru	tukareru
+tsukaru	tukaru
+tsukasa	tukasa
+tsukasadoru	tukasadoru
+tsukasu	tukasu
+tsukau	tukau
+tsukawasu	tukawasu
+tsuke	tuke
+tsukehimo	tukehimo
+tsukemono	tukemono
+tsukeru	tukeru
+tsuki	tuki
+tsukige	tukige
+tsukiji	tsukizi,tukiji
+tsukinohikari	tukinohikari
+tsukinoutsukushiihikari	tsukinoutsukusiihikari,tukinoutukushiihikari
+tsukiru	tukiru
+tsukisoi	tukisoi
+tsukisou	tukisou
+tsuku	tuku
+tsukubau	tukubau
+tsukuda	tukuda
+tsukue	tukue
+tsukuneru	tukuneru
+tsukura	tukura
+tsukuri	tukuri
+tsukuriwarai	tukuriwarai
+tsukurou	tukurou
+tsukuru	tukuru
+tsukusu	tukusu
+tsukutsukuboushi	tsukutsukubousi,tukutukuboushi
+tsuma	tuma
+tsumabasamu	tumabasamu
+tsumabiraka	tumabiraka
+tsumadateru	tumadateru
+tsumadatsu	tumadatu
+tsumadoru	tumadoru
+tsumako	tumako
+tsumami	tumami
+tsumamu	tumamu
+tsumaru	tumaru
+tsumashii	tsumasii,tumashii
+tsumazuku	tumazuku
+tsume	tume
+tsumeato	tumeato
+tsumeru	tumeru
+tsumetai	tumetai
+tsumi	tumi
+tsumikasaneru	tumikasaneru
+tsumori	tumori
+tsumoru	tumoru
+tsumu	tumu
+tsumugi	tumugi
+tsumugu	tumugu
+tsumujikaze	tsumuzikaze,tumujikaze
+tsumuru	tumuru
+tsuna	tuna
+tsunagu	tunagu
+tsunbo	tunbo
+tsune	tune
+tsuneni	tuneni
+tsuneru	tuneru
+tsuno	tuno
+tsunogiri	tunogiri
+tsunoru	tunoru
+tsunosaji	tsunosazi,tunosaji
+tsunosakazuki	tunosakazuki
+tsunzaku	tunzaku
+tsuppori	tuppori
+tsura	tura
+tsurai	turai
+tsuranaru	turanaru
+tsuraneru	turaneru
+tsuranuku	turanuku
+tsuratsura	turatura
+tsureai	tureai
+tsurenai	turenai
+tsureru	tureru
+tsuri	turi
+tsurigane	turigane
+tsuriganesou	turiganesou
+tsuriito	turiito
+tsuru	turu
+tsurubenawa	turubenawa
+tsurugi	turugi
+tsuruginoha	turuginoha
+tsurusu	turusu
+tsuta	tuta
+tsutaeru	tutaeru
+tsutanai	tutanai
+tsutau	tutau
+tsutawaru	tutawaru
+tsute	tute
+tsuto	tuto
+tsutomaru	tutomaru
+tsutomenai	tutomenai
+tsutomeru	tutomeru
+tsutoni	tutoni
+tsutsu	tutu
+tsutsuganai	tutuganai
+tsutsuku	tutuku
+tsutsumashii	tsutsumasii,tutumashii
+tsutsumi	tutumi
+tsutsumiutsu	tutumiutu
+tsutsumu	tutumu
+tsutsushi	tsutsusi,tutushi
+tsutsushimanai	tsutsusimanai,tutushimanai
+tsutsushimi	tsutsusimi,tutushimi
+tsutsushimiosoreru	tsutsusimiosoreru,tutushimiosoreru
+tsutsushimu	tsutsusimu,tutushimu
+tsuu	tuu
+tsuwamono	tuwamono
+tsuya	tuya
+tsuyagaaru	tuyagaaru
+tsuyameku	tuyameku
+tsuyoi	tuyoi
+tsuyoiyumi	tuyoiyumi
+tsuyokuisamashii	tsuyokuisamasii,tuyokuisamashii
+tsuyomaru	tuyomaru
+tsuyomeru	tuyomeru
+tsuyu	tuyu
+tsuzukeru	tuzukeru
+tsuzuku	tuzuku
+tsuzumaru	tuzumaru
+tsuzumayaka	tuzumayaka
+tsuzumeru	tuzumeru
+tsuzumi	tuzumi
+tsuzura	tuzura
+tsuzuri	tuzuri
+tsuzuru	tuzuru
+u	
+uba	
+ubau	
+ubu	
+uchi	uti
+uchiatarukoe	utiatarukoe
+uchibari	utibari
+uchigi	utigi
+uchihimo	utihimo
+uchiido	utiido
+uchikake	utikake
+uchiki	utiki
+uchikizu	utikizu
+ude	
+udemakurisuru	
+uderu	
+udewa	
+udon	
+ue	
+uejini	uezini
+ueru	
+ugai	
+ugatsu	ugatu
+ugokasu	
+ugoku	
+ugomeku	
+ugui	
+uguisu	
+ui	
+uji	uzi
+ujimushi	ujimusi,uzimushi
+ukaberu	
+ukabu	
+ukagaimeru	
+ukagaimiru	
+ukagau	
+ukareru	
+ukaru	
+uke	
+ukeru	
+uketamawaru	
+uki	
+ukibori	
+ukibukuro	
+ukigusa	
+ukikusa	
+uku	
+uma	
+umagayamu	
+umai	
+umakai	
+umare	
+umareru	
+umaru	
+umaya	
+umazake	
+ume	
+umeki	
+umeku	
+umeru	
+umi	
+umiebi	
+umigame	
+umihebi	
+umoreru	
+umu	
+un	
+unagasu	
+unagi	
+unai	
+unaji	unazi
+unari	
+unaru	
+unasareru	
+unazuku	
+une	
+uneme	
+uneru	
+unu	
+uo	
+uoami	
+ura	
+urakata	
+urameshii	uramesii
+urami	
+uramu	
+uranai	
+uranau	
+uraniumu	
+uraraka	
+urayamu	
+ure	
+ureekurushimu	ureekurusimu
+ureeru	
+ureerusama	
+urei	
+ureru	
+ureshii	uresii
+uri	
+uriwata	
+uriyone	
+uroko	
+uru	
+uruchi	uruti
+urumu	
+uruoi	
+uruosu	
+uruou	
+urusagaru	
+urusai	
+urusakushaberu	urusakusyaberu
+urushi	urusi
+uruu	
+uruwashii	uruwasii
+usagi	
+usagiami	
+usagiuma	
+useru	
+ushi	usi
+ushinau	usinau
+ushio	usio
+ushiro	usiro
+ushitora	usitora
+uso	
+usobuku	
+ussuru	
+usu	
+usuaoguroi	
+usuba	
+usuginu	
+usui	
+usuiakairo	
+usuikifuda	usuikihuda
+usujiku	usuziku
+usumaru	
+usumeru	
+usumono	
+usura	
+usuragu	
+usureru	
+usutsuku	usutuku
+usuzake	
+usuzuku	
+uta	
+utagau	
+utage	
+utai	
+utaime	
+utata	
+utau	
+utautau	
+utena	
+utoi	
+utomu	
+utsu	utu
+utsubari	utubari
+utsubo	utubo
+utsugi	utugi
+utsuke	utuke
+utsukushii	utsukusii,utukushii
+utsukushiikane	utsukusiikane,utukushiikane
+utsumuku	utumuku
+utsuo	utuo
+utsuro	uturo
+utsuru	uturu
+utsushi	utsusi,utushi
+utsushiueru	utsusiueru,utushiueru
+utsusu	utusu
+utsutsu	ututu
+utsuwa	utuwa
+uttae	
+uttaeru	
+uttorisuru	
+uwa	
+uwaago	
+uwabami	
+uwagoto	
+uwagusuri	
+uwamezukai	
+uwaru	
+uwasa	
+uyamau	
+uyamuya	
+uyauyashii	uyauyasii
+uzu	
+uzuku	
+uzukumaru	
+uzumaki	
+uzumaru	
+uzumeru	
+uzumibi	
+uzura	
+uzutakai	
+wa	
+wabi	
+wabiru	
+wabishii	wabisii
+wachi	wati
+wadachi	wadati
+wadachii	wadatii
+wadakamaru	
+waga	
+waganeru	
+wage	
+wai	
+waka	
+wakai	
+wakajini	wakazini
+wakare	
+wakareru	
+wakaru	
+wakasagi	
+wakasu	
+wakataka	
+wakatsu	wakatu
+wake	
+wakeru	
+waki	
+wakibara	
+wakibasamu	
+wakibeya	
+wakigi	
+wakimaeru	
+wakimizu	
+wakinoshita	wakinosita
+waku	
+wameku	
+wan	
+wana	
+wananaku	
+wani	
+wankago	
+wara	
+warabe	
+warabi	
+waraji	warazi
+warajimushi	warajimusi,warazimushi
+warataba	
+warau	
+warawa	
+ware	
+wareru	
+wari	
+warifu	warihu
+warigo	
+waru	
+warugashikoi	warugasikoi
+warui	
+warukuiu	
+wase	
+washi	wasi
+wasureru	
+wata	
+wataire	
+watakushi	watakusi
+wataru	
+watashi	watasi
+watasu	
+watsu	watu
+waza	
+wazaogi	
+wazato	
+wazawai	
+wazuka	
+wazurau	
+wazurawashii	wazurawasii
+wazurawasu	
+wo	
+ya	
+yaado	
+yaaru	
+yabu	
+yabukarashi	yabukarasi
+yabunirami	
+yaburegoromo	
+yabureru	
+yaburetakaki	
+yaburu	
+yabusaka	
+yabutabako	
+yachi	yati
+yado	
+yadoru	
+yadosu	
+yagara	
+yagate	
+yagura	
+yahazu	
+yaiba	
+yaito	
+yajiri	yaziri
+yakai	
+yakamashii	yakamasii
+yakara	
+yakata	
+yakeru	
+yaki	
+yakibata	
+yakigari	
+yakigome	
+yakimono	
+yakinabe	
+yakita	
+yakitsuchi	yakitsuti,yakituchi
+yakko	
+yaku	
+yakusho	yakusyo
+yama	
+yamaai	
+yamabi	
+yamadori	
+yamaguwa	
+yamai	
+yamainu	
+yamamichi	yamamiti
+yamamori	
+yamanashi	yamanasi
+yamanira	
+yamanire	
+yamanokatachi	yamanokatati
+yamanotakai	
+yamashii	yamasii
+yamashina	yamasina
+yamato	
+yamenai	
+yameru	
+yami	
+yamome	
+yamoo	
+yamu	
+yana	
+yanagi	
+yanone	
+yara	
+yarai	
+yari	
+yaru	
+yasai	
+yasashii	yasasii
+yaseru	
+yasetekataitsuchi	yasetekataitsuti,yasetekataituchi
+yasetsuchi	yasetsuti,yasetuchi
+yashi	yasi
+yashiki	yasiki
+yashinau	yasinau
+yashiro	yasiro
+yasu	
+yasude	
+yasui	
+yasumaru	
+yasumeru	
+yasumu	
+yasunjiru	yasunziru
+yasunzuru	
+yasuraka	
+yasuraku	
+yasuri	
+yatou	
+yatsu	yatu
+yatsureru	yatureru
+yatsuru	yaturu
+yatsusu	yatusu
+yattsu	
+yawa	
+yawara	
+yawarageru	
+yawaragu	
+yawaraka	
+yawarakai	
+yawarakakumatsuharu	yawarakakumatuharu
+yaya	
+yazutsu	yazutu
+yo	
+yoake	
+yobina	
+yobu	
+yobukodori	
+yodare	
+yodomi	
+yodomu	
+yofune	yohune
+yogiru	
+yogoreru	
+yogosu	
+yoi	
+yoikane	
+yoikotoba	
+yoishireru	yoisireru
+yoiwarabe	
+yojiru	yoziru
+yoke	
+yokeru	
+yoki	
+yoko	
+yokogi	
+yokoito	
+yokome	
+yokoshima	yokosima
+yokotaeru	
+yokotawaru	
+yoku	
+yokuiu	
+yokushaberu	yokusyaberu
+yokutsutsushimu	yokutsutsusimu,yokututushimu
+yome	
+yomi	
+yomigaeru	
+yomisuru	
+yomogi	
+yomu	
+yon	
+yonageru	
+yone	
+yonesake	
+yonjuu	yonzyuu
+yoreru	
+yori	
+yoroi	
+yoroigusa	
+yorokobasu	
+yorokobi	
+yorokobu	
+yorokondeugoku	
+yoromeku	
+yoroshii	yorosii
+yoroshiku	yorosiku
+yorou	
+yorozu	
+yoru	
+yoseru	
+yoshi	yosi
+yoshimi	yosimi
+yoshitosuru	yositosuru
+yosooi	
+yosoou	
+yosou	
+yosu	
+yosuga	
+yotaka	
+yotsu	yotu
+yotsugi	yotugi
+yotte	
+yottsu	
+you	
+yousu	
+youyaku	
+youyou	
+yowai	
+yowaisuru	
+yowamaru	
+yowameru	
+yowaru	
+yoyo	
+yu	
+yubari	
+yubi	
+yubinomata	
+yubukuro	
+yudame	
+yudaneru	
+yuderu	
+yudono	
+yue	
+yugake	
+yugamu	
+yugi	
+yugote	
+yuhazu	
+yui	
+yuka	
+yukari	
+yuki	
+yukinayamu	
+yukinoshita	yukinosita
+yuku	
+yume	
+yumemiru	
+yumi	
+yumibukuro	
+yumigatsuyoi	yumigatuyoi
+yuminona	
+yumushi	yumusi
+yunomi	
+yuragu	
+yureru	
+yuri	
+yuru	
+yurugase	
+yurugu	
+yurui	
+yurumeru	
+yurumi	
+yurumu	
+yurusu	
+yuruyaka	
+yuruyakade	
+yusaburu	
+yusuburu	
+yusugu	
+yusuru	
+yutaka	
+yuu	
+yuugata	
+yuumeshi	yuumesi
+yuwaeru	
+yuzu	
+yuzuka	
+yuzuriha	
+yuzuru	
+za	
+zachi	zati
+zai	
+zakana	
+zaki	
+zaku	
+zakuro	
+zan	
+zareru	
+zaru	
+zatsu	zatu
+ze	
+zechi	zeti
+zei	
+zeki	
+zen	
+zeni	
+zeniaoi	
+zenigame	
+zenisashi	zenisasi
+zenmai	
+zero	
+zetsu	zetu
+zo	
+zochi	zoti
+zoi	
+zoku	
+zome	
+zon	
+zou	
+zouri	
+zu	
+zubon	
+zui	
+zuimushi	zuimusi
+zuka	
+zukai	
+zukare	
+zuke	
+zukeru	
+zuki	
+zukin	
+zuku	
+zukuri	
+zumai	
+zume	
+zumi	
+zurai	
+zure	
+zuri	
+zurui	
+zushi	zusi
+zutai	
+zutome	
+zutsu	zutu
+zutsuu	zutuu

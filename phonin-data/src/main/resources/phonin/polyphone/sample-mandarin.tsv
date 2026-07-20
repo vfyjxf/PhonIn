@@ -1,0 +1,21 @@
+# PhonIn polyphone table — context-disambiguated readings (e.g. MoonBiLSTM-generated).
+# SAMPLE ONLY — hand-curated format example + loader fixture, NOT model output.
+# Columns: codepoints | text | readings_normalized | [source] | [confidence]
+# readings_normalized = per-char pinyin + tone digit, matching the model output.
+#   count must equal the codepoint count (one reading per char).
+# source/confidence are optional trailing columns (engine ignores; for provenance).
+U+94F6,U+884C	银行	yin2,hang2	MOONBILSTM	0.99
+U+4E00,U+884C	一行	yi1,xing2	MOONBILSTM	0.97
+U+91CD,U+8981	重要	zhong4,yao4	MOONBILSTM	0.99
+U+91CD,U+65B0	重新	chong2,xin1	MOONBILSTM	0.98
+U+884C,U+4E1C	行东	xing2,dong1	MOONBILSTM	0.95
+U+51FA,U+884C	出行	chu1,xing2	MOONBILSTM	0.98
+U+6295,U+884C	投行	tou2,hang2	MOONBILSTM	0.99
+U+5F7C,U+884C	彼行	bi3,xing2	MOONBILSTM	0.96
+U+957F,U+884C	长行	chang2,hang2	MOONBILSTM	0.94
+U+5F92,U+884C	徒行	tu2,xing2	MOONBILSTM	0.95
+U+4E2B,U+884C	丫行	ya1,hang2	MOONBILSTM	0.93
+U+96E8,U+884C	雨行	yu3,xing2	MOONBILSTM	0.95
+U+98CE,U+884C	风行	feng1,xing2	MOONBILSTM	0.97
+U+6C34,U+884C	水行	shui3,xing2	MOONBILSTM	0.96
+U+706B,U+884C	火行	huo3,xing2	MOONBILSTM	0.95

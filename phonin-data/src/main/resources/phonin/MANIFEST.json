@@ -1,0 +1,417 @@
+{
+  "files": {
+    "generated/cantonese/cases-char-full.jsonl": {
+      "bytes": 14612028,
+      "rows": 33094,
+      "sha256": "6f2b17d53129c89688c075185fd5e0efc863cb736da311cbcda071fcbfe2df2b"
+    },
+    "generated/cantonese/cases-char-fuzzy-fuzzy_gw_g.jsonl": {
+      "bytes": 393442,
+      "rows": 836,
+      "sha256": "3d4cacadf400b16e800561a99637e6e188f86310dff33c4d3b44c7b1b9d3eee0"
+    },
+    "generated/cantonese/cases-char-fuzzy-fuzzy_n_l.jsonl": {
+      "bytes": 1486075,
+      "rows": 3166,
+      "sha256": "d7507e489c1642d6790da7be9b29e759ee64a922283cd514cfd51a0cafec1edb"
+    },
+    "generated/cantonese/cases-char-fuzzy-fuzzy_ng_omit.jsonl": {
+      "bytes": 261390,
+      "rows": 554,
+      "sha256": "3b630554bc015ae5106f9640d0344691813495360bb0814f45d72792d3b94a82"
+    },
+    "generated/cantonese/cases-char-partial.jsonl": {
+      "bytes": 15004069,
+      "rows": 33094,
+      "sha256": "47f3175e3e2dbeaa8ddf63deba592b15a5f94e0333e959bcb7b0447babbaf985"
+    },
+    "generated/cantonese/cases-char-toned.jsonl": {
+      "bytes": 13625062,
+      "rows": 33094,
+      "sha256": "84f4da761e1fb8836284b7a5f78fc32b55c82b1df62ac7daf9ee88da98c5a338"
+    },
+    "generated/cantonese/cases-negative.jsonl": {
+      "bytes": 4461233,
+      "rows": 20000,
+      "sha256": "9be3fe3da1a4fa2247e19f26e7dafaf1efe5429e481b808b85f436959246afe6"
+    },
+    "generated/cross-system/cases-mandarin-zhuyin-equiv.jsonl": {
+      "bytes": 12397946,
+      "rows": 50456,
+      "sha256": "6efdd4fc09ebf31356edcdbcea2ff321c106363bb5daa531ecbae31f77b94abc"
+    },
+    "generated/japanese/cases-char-full.jsonl": {
+      "bytes": 14205083,
+      "rows": 36840,
+      "sha256": "c3029aa77efcabd924c9b44b9402af2732df22456718bec5d9e4dde720dbc421"
+    },
+    "generated/japanese/cases-char-fuzzy-fuzzy_hepburn_kunrei.jsonl": {
+      "bytes": 2778194,
+      "rows": 6176,
+      "sha256": "800f3157656156ce78e98d63fbe40769eaafa7a1d7af64e83b5cbcf4da2777e1"
+    },
+    "generated/japanese/cases-char-fuzzy-fuzzy_long_vowel.jsonl": {
+      "bytes": 2314327,
+      "rows": 4842,
+      "sha256": "1671d30841db752501a94e3cba28fb20612697ba3c4ea9634d3c3df0f2ac6065"
+    },
+    "generated/japanese/cases-char-partial.jsonl": {
+      "bytes": 16651711,
+      "rows": 36840,
+      "sha256": "41b611168226b37fad881ca251208a8d212391e6f4e5bbeb94cf9d4f77a9d080"
+    },
+    "generated/japanese/cases-negative.jsonl": {
+      "bytes": 4421690,
+      "rows": 20000,
+      "sha256": "80b2843119b20e196ef7eed4ad790e7f7ce185b16614e94f572dfb27e04b68f2"
+    },
+    "generated/japanese/cases-word-full.jsonl": {
+      "bytes": 858467,
+      "rows": 2821,
+      "sha256": "696ed3fcb342f86cc351e2eeae083691bf3e479c15a9c8cde0e8ae00d66fd6b9"
+    },
+    "generated/korean/cases-char-full.jsonl": {
+      "bytes": 6871929,
+      "rows": 20089,
+      "sha256": "1e657b1402af33fbe570e19d3495e2eae30333427a1a322ef5e827a1b80c0a52"
+    },
+    "generated/korean/cases-char-fuzzy-fuzzy_ae_e.jsonl": {
+      "bytes": 736646,
+      "rows": 2035,
+      "sha256": "0d7c8f683935f194426ed0de62bdc9a8f4ff1fb8c6acd3283d090ead48a3a863"
+    },
+    "generated/korean/cases-char-fuzzy-fuzzy_l_r.jsonl": {
+      "bytes": 1374033,
+      "rows": 4031,
+      "sha256": "10f28a19de6974507e808c171e6388bfdee7e1d40573c5a47c1957f392ae690c"
+    },
+    "generated/korean/cases-char-fuzzy-fuzzy_oe_we.jsonl": {
+      "bytes": 79459,
+      "rows": 190,
+      "sha256": "ad4746aa4798353ba70a7d45e421be5d94031e3974e9e323eb3f70cd3ecda8f8"
+    },
+    "generated/korean/cases-char-partial.jsonl": {
+      "bytes": 8996225,
+      "rows": 20089,
+      "sha256": "8d0a1c07f14dd241607af032f917ec45e427407ff409d30e0dd1f95e85bef87c"
+    },
+    "generated/korean/cases-negative.jsonl": {
+      "bytes": 4341477,
+      "rows": 20000,
+      "sha256": "c2f707cf314e8f246d875ccae47583418df0e85c550f5e7b304806ac71cf4b55"
+    },
+    "generated/mandarin/cases-char-full.jsonl": {
+      "bytes": 23887135,
+      "rows": 53377,
+      "sha256": "4c3ebffe627ec5765741dd4ae33fdef8e3e2c5cf8af77cfa5c87dca4701bb33d"
+    },
+    "generated/mandarin/cases-char-fuzzy-fuzzy_ang_an.jsonl": {
+      "bytes": 4572767,
+      "rows": 9550,
+      "sha256": "722785ffb614b1b086a4e7d2857bf12fd6c53cea2ce85290e9d5b1076656b5ac"
+    },
+    "generated/mandarin/cases-char-fuzzy-fuzzy_ch_c.jsonl": {
+      "bytes": 1545792,
+      "rows": 3264,
+      "sha256": "c04ae88d279586d758ce64ff779fcb886cada7a3c67321372c55e748cac1d613"
+    },
+    "generated/mandarin/cases-char-fuzzy-fuzzy_eng_en.jsonl": {
+      "bytes": 1246906,
+      "rows": 2610,
+      "sha256": "aa8bd5419314b381af084a39f5d52610cb20324a41a1526b62856da528f1de90"
+    },
+    "generated/mandarin/cases-char-fuzzy-fuzzy_ing_in.jsonl": {
+      "bytes": 1222692,
+      "rows": 2558,
+      "sha256": "a39e8fe4098cb3ba68a2276d1fb92894aebb64541ab5d7ddc5b0226abde1a73a"
+    },
+    "generated/mandarin/cases-char-fuzzy-fuzzy_sh_s.jsonl": {
+      "bytes": 1470497,
+      "rows": 3107,
+      "sha256": "1ac3210a4805c87a4495d206c7320d5860ce390164fd24cebbe35e398e9f40bf"
+    },
+    "generated/mandarin/cases-char-fuzzy-fuzzy_u_v.jsonl": {
+      "bytes": 2533562,
+      "rows": 5380,
+      "sha256": "1fefb45cde5a88f0ee06396d7f85de4b04390007f7e7158e968efd7ecd2a2a4e"
+    },
+    "generated/mandarin/cases-char-fuzzy-fuzzy_zh_z.jsonl": {
+      "bytes": 1895470,
+      "rows": 4008,
+      "sha256": "ae2c122238289756659b6ca20d87203837883164c9d02931f8f3e4918a9fe691"
+    },
+    "generated/mandarin/cases-char-partial.jsonl": {
+      "bytes": 24220331,
+      "rows": 53377,
+      "sha256": "c5932d312579bf84a8f72d2f0eb6317795dab3ee87dea3ccaf3b9af8179eefd7"
+    },
+    "generated/mandarin/cases-char-shuangpin-abc.jsonl": {
+      "bytes": 23245190,
+      "rows": 50456,
+      "sha256": "495d4d6c5052c2fe0b69ec422ada68234016d63ab7c761fa980e1d5b730ead7b"
+    },
+    "generated/mandarin/cases-char-shuangpin-flypy.jsonl": {
+      "bytes": 23547717,
+      "rows": 50456,
+      "sha256": "87b9f6ef0603df82f6998990a185dfac33d40e583fc681a28303c3e77ceca34e"
+    },
+    "generated/mandarin/cases-char-shuangpin-mspy.jsonl": {
+      "bytes": 23396349,
+      "rows": 50456,
+      "sha256": "66249c5f98b16cae077977b64034cb3ada229fa72d3316b23042accf1a574c81"
+    },
+    "generated/mandarin/cases-char-shuangpin-pyjj.jsonl": {
+      "bytes": 23396345,
+      "rows": 50456,
+      "sha256": "318000b258fcd4b0682efd9ae922f74680c3ecb302d6ab68eb66e11a32e0a2ef"
+    },
+    "generated/mandarin/cases-char-shuangpin-zrm.jsonl": {
+      "bytes": 23244981,
+      "rows": 50456,
+      "sha256": "09cc007fea6e6a8b97a134a0004a3e4febd25602f1bec3981612a10b5526041d"
+    },
+    "generated/mandarin/cases-char-toned.jsonl": {
+      "bytes": 23498229,
+      "rows": 53377,
+      "sha256": "ca9dea6d6e406c8314569b2e111fe5857dcbe0886acfbc69b33b7b88939cc0fd"
+    },
+    "generated/mandarin/cases-negative.jsonl": {
+      "bytes": 4421038,
+      "rows": 20000,
+      "sha256": "9098ed4114cd0b39a6396987968ae478556779499255584cc165898d02157872"
+    },
+    "generated/mandarin/cases-word-abbrev.jsonl": {
+      "bytes": 62591120,
+      "rows": 122961,
+      "sha256": "c0abce6edfa4c3298fdffaf0a24a9bc8b7e81defec5e5c3cc7c4522727666bf4"
+    },
+    "generated/mandarin/cases-word-full.jsonl": {
+      "bytes": 39309445,
+      "rows": 122961,
+      "sha256": "dc53e00f48b7cbb17860fe5586bcf50aa03d3feb78d96a52ab884fef5496bda7"
+    },
+    "generated/mandarin/cases-word-partial.jsonl": {
+      "bytes": 89506147,
+      "rows": 122961,
+      "sha256": "63785b846001ed83677f69c51f2c15b94e006827f780ce7b6ff55091de2838c9"
+    },
+    "generated/mandarin/cases-word-shuangpin-abc.jsonl": {
+      "bytes": 40666632,
+      "rows": 122961,
+      "sha256": "801db48d9837fbb11ce4229381c81379a8c9719ade6f1d8b5e6483b136111f8e"
+    },
+    "generated/mandarin/cases-word-shuangpin-flypy.jsonl": {
+      "bytes": 41404190,
+      "rows": 122961,
+      "sha256": "7b78e911e3eda635bd49d042e777b146f702a2f1c426b2d88a29e3d4639ee02c"
+    },
+    "generated/mandarin/cases-word-shuangpin-mspy.jsonl": {
+      "bytes": 41035307,
+      "rows": 122961,
+      "sha256": "926c3260b69b6dcc49bbca69c03a71b96a9a2c470a4332436f553e4e953e35c2"
+    },
+    "generated/mandarin/cases-word-shuangpin-pyjj.jsonl": {
+      "bytes": 41035307,
+      "rows": 122961,
+      "sha256": "e7fc19203fcb149d4e4163264fad5662624529a27b5cbadb7900bce6e6099030"
+    },
+    "generated/mandarin/cases-word-shuangpin-zrm.jsonl": {
+      "bytes": 40666424,
+      "rows": 122961,
+      "sha256": "9b55620f00c42807c42739fb0f7a4ce916ba5d71f6fa7059cdb433ecd4b27909"
+    },
+    "generated/mandarin/cases-word-toned.jsonl": {
+      "bytes": 37086460,
+      "rows": 120937,
+      "sha256": "3e5855a4fabc16bd322890aa066c89c6c06917b7ea92eb7a482cdfb02df1dc98"
+    },
+    "generated/zhuyin/cases-char-full.jsonl": {
+      "bytes": 23815529,
+      "rows": 53361,
+      "sha256": "fa6c2428da032ba0a2bffd9d4d1935410e97f1fddf6e860723631527d31ecf2e"
+    },
+    "generated/zhuyin/cases-char-fuzzy-fuzzy_zy_ch_c.jsonl": {
+      "bytes": 1559491,
+      "rows": 3265,
+      "sha256": "dc7a71f6b78885ac5b5edb62b1caa6f79a5033cc6c0f3b63a4b01adfaa140e0f"
+    },
+    "generated/zhuyin/cases-char-fuzzy-fuzzy_zy_sh_s.jsonl": {
+      "bytes": 1481876,
+      "rows": 3105,
+      "sha256": "91a1f0770584fffdf25ee0be608d0bf15a4108ff96452ea8d223efeb1f71e6f2"
+    },
+    "generated/zhuyin/cases-char-fuzzy-fuzzy_zy_zh_z.jsonl": {
+      "bytes": 1913536,
+      "rows": 4012,
+      "sha256": "e131d9aa6142f5918c8f8e8d0eaa6a38089ba1bf955b381fa5de6dd68a7b5eba"
+    },
+    "generated/zhuyin/cases-char-partial.jsonl": {
+      "bytes": 24110887,
+      "rows": 53361,
+      "sha256": "77fbda3276860ffffaad9371a7add14699c13653efb23b8ae6b6ebb41e3933f0"
+    },
+    "generated/zhuyin/cases-char-toned.jsonl": {
+      "bytes": 23454271,
+      "rows": 53361,
+      "sha256": "1b8866cfcf7fc895c3038ba65a2b44a5a2b77eecce750503e346517b893bc3fa"
+    },
+    "generated/zhuyin/cases-negative.jsonl": {
+      "bytes": 4412526,
+      "rows": 20000,
+      "sha256": "f344d95ac58d5866aa0849c97cb9fb7597528af28de5c6bfa9e4e7bd953cb54d"
+    },
+    "keymaps/shuangpin-abc.tsv": {
+      "bytes": 3286,
+      "rows": 437,
+      "sha256": "286bce9b502d88c5abc36bac8c73a9488d1bc90ab037978d1130bcfb0a438691"
+    },
+    "keymaps/shuangpin-flypy.tsv": {
+      "bytes": 3291,
+      "rows": 437,
+      "sha256": "36fb4487358ad9419dcd747f569c6b1c65f686cafa0cd7b2e1e0ea967e34459c"
+    },
+    "keymaps/shuangpin-mspy.tsv": {
+      "bytes": 3290,
+      "rows": 437,
+      "sha256": "e715bc8bb4e356dc805fbe6a7f361c1ce8f678e412e424970f956e382ff7e6de"
+    },
+    "keymaps/shuangpin-pyjj.tsv": {
+      "bytes": 3290,
+      "rows": 437,
+      "sha256": "91452fcdc533e518659f4f4df8fcdff67c1b6bef9ac9723727f9080a29de2c41"
+    },
+    "keymaps/shuangpin-zrm.tsv": {
+      "bytes": 3286,
+      "rows": 437,
+      "sha256": "e7906c2809937e65e46e776e1fa33ac26639bfbcec7c8e75391d8c76eb3accb3"
+    },
+    "raw/cantonese-char.tsv": {
+      "bytes": 1461887,
+      "rows": 30022,
+      "sha256": "22363e615af41124374f02b273466ac274a88cd2547497bb6f31202008c8c691"
+    },
+    "raw/cantonese-word.tsv": {
+      "bytes": 62,
+      "rows": 0,
+      "sha256": "dfd9af38938ddfb3bb83def21d77bd88defd5aa7515dd724d17eecafffa026b6"
+    },
+    "raw/japanese-char.tsv": {
+      "bytes": 1165891,
+      "rows": 12356,
+      "sha256": "9c15d44a63913698b8b5ce4935371cf846ed9a95aa83394a406f8e9375254445"
+    },
+    "raw/japanese-word.tsv": {
+      "bytes": 13152612,
+      "rows": 176723,
+      "sha256": "124ab8d5dd74333ab3ade3d16f7b2341d8234e5959fcb746c68b32e507166837"
+    },
+    "raw/korean-char.tsv": {
+      "bytes": 813846,
+      "rows": 19697,
+      "sha256": "ba85f49407ac2da3658be79824cf23f54283d4ac6029100a881b2d3440d82e96"
+    },
+    "raw/mandarin-char.tsv": {
+      "bytes": 2111878,
+      "rows": 41847,
+      "sha256": "20eefc3acfa0fd988cce0cd766d2073d2c1603b81429bf05b34126188357c1e8"
+    },
+    "raw/mandarin-word.tsv": {
+      "bytes": 7485039,
+      "rows": 124754,
+      "sha256": "c4f2ecd60172e9bf5aedd82c81ca3a83a73ea90537fbe52eddeca3f5d18cbf3e"
+    },
+    "raw/zhuyin-char.tsv": {
+      "bytes": 2559519,
+      "rows": 41847,
+      "sha256": "61d6ff70c06f31fffa6b8650015299edec4468b589d9ba2120f01f69f79a1955"
+    },
+    "regression/fuzzy-jianpin-mandarin.jsonl": {
+      "bytes": 3342772,
+      "rows": 10000,
+      "sha256": "668df5d1b13a60dc72c689d332af59bcd4f78eeeca25cc30bcc5cf3a6a661591"
+    },
+    "regression/jianpin-mix-mandarin.jsonl": {
+      "bytes": 15379872,
+      "rows": 51263,
+      "sha256": "8f559fe6afbfa34eab24cc354e33eb581e1ffc7245e8be83eac4b1d2c77492f5"
+    },
+    "regression/long-text-mandarin.jsonl": {
+      "bytes": 14573352,
+      "rows": 41971,
+      "sha256": "f04b9240b6d4b54ce8dfc365ff66c29bda730dd6bab2df481cf089cd0bf04b93"
+    },
+    "regression/mixed-script-mandarin.jsonl": {
+      "bytes": 9222812,
+      "rows": 28472,
+      "sha256": "f7ee5e8b5137b75d13ccc6248ec9a265983e485d78ec45cac5ff04ce8fed0d6b"
+    },
+    "regression/modes-mandarin.jsonl": {
+      "bytes": 6785058,
+      "rows": 24000,
+      "sha256": "76064b0cc1f550410f89d7b149017e6f80fbcf71af4f2971fda37691dc23760c"
+    },
+    "regression/negative-scenarios-mandarin.jsonl": {
+      "bytes": 3407612,
+      "rows": 12000,
+      "sha256": "33eae878e2294b552a9b5925405aa07e470a0126333bf17c96a11fab3cc52ca3"
+    }
+  },
+  "generatedAt": "unknown",
+  "mozillazgCommit": "923b108dc5d45dee061324c011b478fb649f8b73",
+  "schemaVersion": 1,
+  "sources": {
+    "cc-cedict": {
+      "license": "CC-BY-SA-4.0",
+      "url": "https://www.mdbg.net/chinese/dictionary?page=cedict"
+    },
+    "jmdict": {
+      "license": "EDRDG",
+      "url": "https://www.edrdg.org/jmdict/j_jmdict.html"
+    },
+    "kanjidic2": {
+      "license": "EDRDG",
+      "url": "https://www.edrdg.org/kanjidic/"
+    },
+    "mozillazg-pinyin-data": {
+      "license": "MIT",
+      "url": "https://github.com/mozillazg/pinyin-data"
+    },
+    "pypinyin": {
+      "license": "MIT",
+      "url": "https://github.com/mozillazg/python-pinyin"
+    },
+    "unihan": {
+      "license": "Unicode Data Files agreement",
+      "url": "https://www.unicode.org/Public/zipped/16.0.0/Unihan.zip"
+    },
+    "words-hk": {
+      "license": "public domain",
+      "url": "https://words.hk/faiman/request_data/"
+    },
+    "wordshk-tools": {
+      "license": "MIT",
+      "url": "https://github.com/AlienKevin/wordshk-tools"
+    }
+  },
+  "stats": {
+    "caseFiles": 52,
+    "chars": {
+      "CANTONESE": 30022,
+      "JAPANESE": 12356,
+      "KOREAN": 19697,
+      "MANDARIN": 41847,
+      "ZHUYIN": 41847
+    },
+    "totalCases": 2106225,
+    "totalChars": 57889,
+    "totalWords": 301477,
+    "words": {
+      "CANTONESE": 0,
+      "JAPANESE": 176723,
+      "KOREAN": 0,
+      "MANDARIN": 124754,
+      "ZHUYIN": 0
+    }
+  },
+  "unihanVersion": "16.0.0"
+}

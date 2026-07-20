@@ -1,0 +1,10 @@
+words.hk — 粵典
+Source: https://words.hk/faiman/analysis/
+
+License: public domain (公有領域). Per the words.hk data download page:
+"Data License: public domain. Credits to words.hk appreciated. 授權：公有領域。"
+
+The full words.hk dictionary CSV is not bundled here because it is distributed only
+on request via https://words.hk/faiman/request_data/. To enable Cantonese word-level
+data, obtain the CSV, convert it to a TSV (headword<TAB>jyutping), place it at
+build/downloads/wordshk/words.hk.tsv, and re-run the pipeline.

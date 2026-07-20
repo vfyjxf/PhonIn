@@ -1,0 +1,8 @@
+{
+  "codepointsInBoth": 41847,
+  "comparison": "unihan-mandarin vs mozillazg/pinyin-data",
+  "disagreementRate": 0.0,
+  "disagreements": 0,
+  "maxAllowedRate": 0.02,
+  "sampleDisagreements": []
+}

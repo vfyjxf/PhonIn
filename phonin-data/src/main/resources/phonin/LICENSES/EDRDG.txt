@@ -1,0 +1,15 @@
+EDRDG License — KANJIDIC2 and JMDict
+Source: https://www.edrdg.org/
+
+The Electronic Dictionary Research and Development Group (EDRDG) distributes the
+KANJIDIC2 and JMDict files under its own license. The full, authoritative text is
+at:
+
+  https://www.edrdg.org/edrdg/licence.html
+
+In summary, the data may be freely used and redistributed provided that proper
+acknowledgement of the EDRDG is made in any accompanying documentation and/or
+software.
+
+This product includes data produced by the EDRG and is used in accordance with
+the EDRG license.
