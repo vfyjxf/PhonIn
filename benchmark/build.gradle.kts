@@ -1,5 +1,5 @@
 plugins {
-    `java-library`
+    id("phonin.library")
     id("me.champeau.jmh") version "0.7.3"
 }
 
@@ -7,6 +7,12 @@ dependencies {
     implementation(project(":phonin-core"))
     implementation(rootProject.libs.fastutil)
     jmh(project(":phonin-core"))
+
+    runtimeOnly(project(":phonin-mandarin"))
+    runtimeOnly(project(":phonin-cantonese"))
+    runtimeOnly(project(":phonin-zhuyin"))
+    runtimeOnly(project(":phonin-japanese"))
+    runtimeOnly(project(":phonin-korean"))
 }
 
 jmh {

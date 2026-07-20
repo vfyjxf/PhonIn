@@ -1,11 +1,14 @@
 rootProject.name = "PhonIn"
 
-// phonin-api: public interfaces, model classes and enums (no runtime dependencies).
-// phonin-data: bundled datasets and the PhonInData loader.
-// phonin-core: matching engine and PhonIn entry point (consumes api + data).
-// phonin-systems: optional bundled keyboards (Korean, shuangpin) and the ByBlockRouter.
-include(":phonin-api")
+// phonin-core: public API + matching engine + PhonIn entry point + PhonInData loader.
+// phonin-data: resource-only module with shared test datasets and legal notices.
+// phonin-<system>: per-language module; ships the character table and any language-specific
+// keyboards / option presets (e.g. shuangpin for Mandarin, 2-bulsik for Korean).
 include(":phonin-data")
+include(":phonin-mandarin")
+include(":phonin-cantonese")
+include(":phonin-zhuyin")
+include(":phonin-japanese")
+include(":phonin-korean")
 include(":phonin-core")
-include(":phonin-systems")
 include(":benchmark")
