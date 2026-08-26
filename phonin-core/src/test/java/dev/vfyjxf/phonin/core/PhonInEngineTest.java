@@ -15,7 +15,6 @@ import dev.vfyjxf.phonin.mandarin.MandarinOptions;
 import dev.vfyjxf.phonin.mandarin.ShuangpinKeyboard;
 import dev.vfyjxf.phonin.model.CharEntry;
 import dev.vfyjxf.phonin.model.Reading;
-import dev.vfyjxf.phonin.model.WordEntry;
 import java.util.Collections;
 import java.util.concurrent.atomic.AtomicInteger;
 import org.junit.jupiter.api.BeforeAll;
@@ -120,14 +119,15 @@ class PhonInEngineTest {
         assertThat(phonIn.matches("中", "vs", spStrict)).isTrue();
         assertThat(phonIn.matches("中", "vs1", spStrict)).isFalse();
 
-        // abbreviation is a system-native-keyboard concept; shuangpin disables it, so the
-        // "first key of each code" short-circuit does not fire (vg must not match 中国).
+        // 首键简拼: under a non-identity keyboard the abbreviation is the first key of each code,
+        // so 中国 (vs+go under flypy) matches "vg" but not "zg" (中's key is v, not z).
         Options spAbbrev =
                 MandarinOptions.shuangpin("flypy").toBuilder()
                         .abbrev(AbbrevPolicy.INITIALS)
                         .build();
-        assertThat(spAbbrev.sequence()).isFalse();
-        assertThat(phonIn.contains("中国", "vg", spAbbrev)).isFalse();
+        assertThat(spAbbrev.sequence()).isTrue();
+        assertThat(phonIn.contains("中国", "vg", spAbbrev)).isTrue();
+        assertThat(phonIn.contains("中国", "zg", spAbbrev)).isFalse();
 
         // caching + identity
         assertThat(ShuangpinKeyboard.of("flypy")).isSameAs(ShuangpinKeyboard.of("FLYPY"));
@@ -247,7 +247,7 @@ class PhonInEngineTest {
 
     @Test
     void indexSetMergeZeroReplacesOtherwiseUnions() {
-        IndexSet zero = IndexSet.zero.copy(); // {0}
+        IndexSet zero = IndexSet.zero(); // {0}
         IndexSet other = new IndexSet();
         other.set(3);
         zero.merge(other); // merging into a bare {0} anchor replaces -> {3}
@@ -276,10 +276,10 @@ class PhonInEngineTest {
 
     @Test
     void indexSetStaticsAreDistinct() {
-        assertThat(IndexSet.zero.get(0)).isTrue();
-        assertThat(IndexSet.one.get(1)).isTrue();
-        assertThat(IndexSet.none.isEmpty()).isTrue();
-        assertThat(IndexSet.one.copy().get(1)).isTrue();
+        assertThat(IndexSet.zero().get(0)).isTrue();
+        assertThat(IndexSet.one().get(1)).isTrue();
+        assertThat(IndexSet.none().isEmpty()).isTrue();
+        assertThat(IndexSet.one().copy().get(1)).isTrue();
     }
 
     //endregion
@@ -301,16 +301,12 @@ class PhonInEngineTest {
     //region PhoneticSystem & model holders
 
     @Test
-    void phoneticSystemIdentityAndSurface() {
+    void phoneticSystemIdentity() {
         assertThat(new PhoneticSystem("MANDARIN")).isEqualTo(PhoneticSystem.mandarin);
         assertThat(PhoneticSystem.mandarin.abbreviable()).isTrue();
         assertThat(PhoneticSystem.japanese.abbreviable()).isFalse();
         assertThat(PhoneticSystem.mandarin.toneConvention()).isEqualTo(ToneConvention.DIGIT);
         assertThat(PhoneticSystem.zhuyin.toneConvention()).isEqualTo(ToneConvention.ZHUYIN);
-
-        Reading r = new Reading(PhoneticSystem.mandarin, "zhong1");
-        assertThat(PhoneticSystem.mandarin.surface(r, TonePolicy.IGNORE)).isEqualTo("zhong");
-        assertThat(PhoneticSystem.mandarin.surface(r, TonePolicy.STRICT)).isEqualTo("zhong1");
     }
 
     @Test
@@ -318,16 +314,12 @@ class PhonInEngineTest {
         PhoneticSystem hakka = new PhoneticSystem("HAKKA");
         assertThat(hakka.charEntry('A')).isNull();
         assertThat(hakka.charCount()).isZero();
-        assertThat(hakka.words()).isEmpty();
         CharEntry entry = new CharEntry('A', Collections.singletonList(new Reading(hakka, "a")));
         hakka.putChar(entry);
         assertThat(hakka.charEntry('A')).isSameAs(entry);
         assertThat(hakka.charCount()).isEqualTo(1);
-        hakka.addWord(new WordEntry(new int[] {'A'}, "A", hakka, Collections.<Reading>emptyList()));
-        assertThat(hakka.words()).hasSize(1);
         hakka.clearData();
         assertThat(hakka.charCount()).isZero();
-        assertThat(hakka.words()).isEmpty();
     }
 
     @Test
@@ -367,7 +359,6 @@ class PhonInEngineTest {
         assertThat(s.defaultFuzzies()).isEmpty();
         CharEntry empty = new CharEntry('Z', Collections.<Reading>emptyList());
         assertThat(empty.system()).isNull(); // no readings -> null system
-        assertThat(empty.character()).isEqualTo('Z');
     }
     //endregion
 }

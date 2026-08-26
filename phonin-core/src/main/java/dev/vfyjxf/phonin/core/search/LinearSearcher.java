@@ -10,11 +10,10 @@ import java.util.List;
 
 /**
  * A {@link Searcher} that scans every indexed name linearly using the direct {@link Matcher}, with
- * no {@link dev.vfyjxf.phonin.core.match.Accelerator} cache. Each name gets a fresh per-call {@link
- * MatchContext}, so this is the <em>only</em> built-in searcher that supports {@link
- * dev.vfyjxf.phonin.PolyphoneMode#PRECISE}: the position-aware {@link MatchContext#charNode(int[],
- * int)} path requires a per-name matching frame, which the accelerator's shared per-codepoint cache
- * cannot provide.
+ * no {@link dev.vfyjxf.phonin.core.match.Accelerator} cache. This is the <em>only</em> built-in
+ * searcher that supports {@link dev.vfyjxf.phonin.PolyphoneMode#PRECISE} without index-time
+ * interning: the position-aware {@link MatchContext#charNode(int[], int)} path needs a per-search
+ * matching frame, which the accelerator's shared per-codepoint cache cannot provide.
  *
  * <p>O(N) per search (one {@link Matcher} call per name), with no cross-name memoization. For OFF
  * mode (the default) prefer {@link SimpleSearcher} or {@link TreeSearcher}, which cache phoneme
@@ -41,10 +40,13 @@ public final class LinearSearcher<T> implements Searcher<T> {
 
     @Override
     public List<T> search(String query) {
+        query = options.keyboard().normalizeQuery(query);
         List<T> ret = new ArrayList<>();
+        // One context per search: the CharNode cache is keyed by codepoint (valid across names),
+        // and PRECISE segmentation re-runs when the text array reference changes.
+        MatchContext ctx = new MatchContext(options);
         for (int i = 0; i < objs.size(); i++) {
             int[] name = names.get(i);
-            MatchContext ctx = new MatchContext(options);
             boolean hit;
             switch (logic) {
                 case BEGIN:

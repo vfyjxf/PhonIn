@@ -23,6 +23,38 @@ public interface Keyboard {
     String encode(String tonelessSyllable);
 
     /**
+     * Normalize a raw user query before matching. The default passes the query through unchanged;
+     * keyboards over a latin alphabet override this with {@link #normalizeLatin} so uppercase input
+     * and the {@code ü} alias work. Case-sensitive keyboards (e.g. Korean 2-bulsik, where {@code R}
+     * and {@code r} are different keys) must keep the pass-through.
+     */
+    default String normalizeQuery(String query) {
+        return query;
+    }
+
+    /**
+     * Lowercase ASCII letters and map {@code ü}/{@code Ü} to {@code v} (the standard pinyin ü
+     * alias). Zero-allocation when the query is already normalized.
+     */
+    static String normalizeLatin(String query) {
+        int n = query.length();
+        for (int i = 0; i < n; i++) {
+            char c = query.charAt(i);
+            if ((c >= 'A' && c <= 'Z') || c == 'ü' || c == 'Ü') {
+                StringBuilder b = new StringBuilder(n).append(query, 0, i);
+                for (int j = i; j < n; j++) {
+                    char d = query.charAt(j);
+                    if (d >= 'A' && d <= 'Z') d += 'a' - 'A';
+                    else if (d == 'ü' || d == 'Ü') d = 'v';
+                    b.append(d);
+                }
+                return b.toString();
+            }
+        }
+        return query;
+    }
+
+    /**
      * The pass-through keyboard: the system's surface is used as-is.
      */
     Keyboard identity =
@@ -35,6 +67,11 @@ public interface Keyboard {
                 @Override
                 public String encode(String tonelessSyllable) {
                     return tonelessSyllable;
+                }
+
+                @Override
+                public String normalizeQuery(String query) {
+                    return normalizeLatin(query);
                 }
             };
 }

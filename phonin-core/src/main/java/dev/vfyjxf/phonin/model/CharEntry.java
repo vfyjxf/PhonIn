@@ -41,8 +41,4 @@ public final class CharEntry {
     public PhoneticSystem system() {
         return readings.length == 0 ? null : readings[0].system;
     }
-
-    public char character() {
-        return (char) codepoint;
-    }
 }

@@ -42,4 +42,12 @@ final class Compressor implements Accelerator.Provider {
     public int codepoint(int i) {
         return chars.getInt(i);
     }
+
+    /**
+     * Pool size including sentinels; a name put at offset {@code start} spans {@code size() -
+     * start - 1} codepoints.
+     */
+    int size() {
+        return chars.size();
+    }
 }

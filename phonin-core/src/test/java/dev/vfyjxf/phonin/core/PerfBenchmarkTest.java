@@ -198,9 +198,11 @@ class PerfBenchmarkTest {
         System.out.println("--- Part C: AcceleratedQuery (compile = stable-query path) ---");
         Options o = Options.mandarinQuanpin();
         List<String> texts = names(2000, 3);
+        // 5 rounds: switching the shared backtracker from the direct to the compiled source
+        // triggers a JIT deopt + recompile; best-of-3 can land inside that window.
         double directUs =
                 total(
-                        3,
+                        5,
                         () -> {
                             for (String t : texts) phonIn.contains(t, "zhong", o);
                         });
@@ -208,7 +210,7 @@ class PerfBenchmarkTest {
         AcceleratedQuery aq = phonIn.compile("zhong", o);
         double compiledUs =
                 total(
-                        3,
+                        5,
                         () -> {
                             for (String t : texts) aq.contains(t);
                         });
@@ -278,16 +280,6 @@ class PerfBenchmarkTest {
         }
     }
 
-    //endregion
-    //region helpers
-
-    /**
-     * First codepoint in the CJK+Hangul range with a reading in {@code s}; returns {char,
-     * 2-prefix}.
-     */
-    /**
-     * Build a fresh searcher of the given kind, index {@code names} (as their own ids), return it.
-     */
     //endregion
     //region Part E: huge-scale search
 
@@ -384,6 +376,9 @@ class PerfBenchmarkTest {
         return out;
     }
 
+    /**
+     * Build a fresh searcher of the given kind, index {@code names} (as their own ids), return it.
+     */
     private static Searcher<String> buildSearcher(
             boolean tree, SearcherLogic logic, Options o, List<String> names) {
         Searcher<String> s = tree ? Searchers.tree(logic, o) : Searchers.simple(logic, o);
@@ -435,14 +430,10 @@ class PerfBenchmarkTest {
         return (int) Long.parseLong(h, 16);
     }
 
-    private static int parseIntSafe(String s) {
-        try {
-            return Integer.parseInt(s.trim());
-        } catch (NumberFormatException e) {
-            return 0;
-        }
-    }
-
+    /**
+     * First codepoint in the CJK+Hangul range with a reading in {@code s}; returns {char,
+     * 2-prefix}.
+     */
     private static String[] firstMatch(PhoneticSystem s) {
         for (int cp = 0x3400; cp <= 0xD7AF; cp++) {
             CharEntry e = s.charEntry(cp);
@@ -457,17 +448,21 @@ class PerfBenchmarkTest {
         return null;
     }
 
+    /**
+     * {@code count} distinct names over {@link #ALPHABET}, {@code len} chars — longer when
+     * {@code count} overflows the {@code len}-char space.
+     */
     private static List<String> names(int count, int len) {
         int base = ALPHABET.length();
         List<String> out = new ArrayList<>(count);
         for (int i = 0; i < count; i++) {
             int n = i;
-            char[] d = new char[len];
-            for (int j = 0; j < len; j++) {
-                d[j] = ALPHABET.charAt(n % base);
+            StringBuilder d = new StringBuilder(len);
+            for (int j = 0; j < len || n > 0; j++) {
+                d.append(ALPHABET.charAt(n % base));
                 n /= base;
             }
-            out.add(new String(d));
+            out.add(d.toString());
         }
         return out;
     }

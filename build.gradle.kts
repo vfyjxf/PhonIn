@@ -13,6 +13,7 @@ tasks.register<Exec>("refreshDatasets") {
     commandLine(
         "python3", "tools/build_dataset.py",
         "--out=phonin-data/src/main/resources/phonin",
+        "--keymaps-out=phonin-mandarin/src/main/resources/phonin",
         "--cache=build/downloads",
         "--unihan-version=16.0.0",
         "--mozillazg-commit=923b108dc5d45dee061324c011b478fb649f8b73"

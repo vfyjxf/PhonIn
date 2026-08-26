@@ -5,8 +5,6 @@ plugins {
 
 dependencies {
     implementation(project(":phonin-core"))
-    implementation(rootProject.libs.fastutil)
-    jmh(project(":phonin-core"))
 
     runtimeOnly(project(":phonin-mandarin"))
     runtimeOnly(project(":phonin-cantonese"))

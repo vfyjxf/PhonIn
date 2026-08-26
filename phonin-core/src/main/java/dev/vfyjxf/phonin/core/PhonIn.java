@@ -76,16 +76,19 @@ public final class PhonIn {
 
     public boolean contains(String text, String query, Options options) {
         data.loadForOptions(options);
+        query = options.keyboard().normalizeQuery(query);
         return Matcher.contains(Codepoints.toCodepoints(text), query, contextFor(options));
     }
 
     public boolean begins(String text, String query, Options options) {
         data.loadForOptions(options);
+        query = options.keyboard().normalizeQuery(query);
         return Matcher.begins(Codepoints.toCodepoints(text), query, contextFor(options));
     }
 
     public boolean matches(String text, String query, Options options) {
         data.loadForOptions(options);
+        query = options.keyboard().normalizeQuery(query);
         return Matcher.matches(Codepoints.toCodepoints(text), query, contextFor(options));
     }
 
@@ -99,7 +102,7 @@ public final class PhonIn {
     public AcceleratedQuery compile(String query, Options options) {
         data.loadForOptions(options);
         Accelerator acc = new Accelerator(options, true);
-        acc.search(query);
+        acc.search(options.keyboard().normalizeQuery(query));
         return new AcceleratedQuery(acc);
     }
 

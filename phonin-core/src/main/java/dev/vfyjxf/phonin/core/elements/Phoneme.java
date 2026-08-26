@@ -1,60 +1,47 @@
 package dev.vfyjxf.phonin.core.elements;
 
 import dev.vfyjxf.phonin.core.util.IndexSet;
-import dev.vfyjxf.phonin.core.util.PinyinInitials;
 
 /**
  * A single matchable surface (plus any fuzzy / keyboard-mapped variants) for one reading of a
  * character. It holds the pre-computed set of surface strings ({@link #strs}); {@link
- * dev.vfyjxf.phonin.core.match.MatchContext} decides what those surfaces are — the toneless syllable,
- * its fuzzy variants (from {@code fuzzy.py}, applied to the toneless syllable), and/or each variant
- * mapped through a non-identity {@link dev.vfyjxf.phonin.Keyboard}. The match pipeline is therefore
- * policy-blind: this Phoneme only compares the query against {@link #strs}.
- *
- * <p>Adapted from {@code me.towdium.pinin.elements.Phoneme}. PhonIn collapses a syllable to one
- * Phoneme whose surface is the whole matchable string (the toneless syllable by default, or the
- * tone-marked normalized form / shuangpin code depending on {@link dev.vfyjxf.phonin.Options}).
+ * dev.vfyjxf.phonin.core.elements.CharNodes} decides what those surfaces are — the toneless syllable,
+ * its fuzzy variants, and/or each variant mapped through a non-identity {@link
+ * dev.vfyjxf.phonin.Keyboard}. The match pipeline is therefore policy-blind: this Phoneme only
+ * compares the query against {@link #strs}.
  *
  * <p>{@link #match} returns the set of query lengths this phoneme can consume: a full surface match
  * ({@code size == surface.length()}) always counts, and in {@code partial} mode a match ending
- * exactly at the query's end mid-surface counts too (prefix / begins semantics). When {@link
- * #sequence} is set (简拼 / initials mode) the syllable's full pinyin initial also matches — 中→zh,
- * 资→z (2 chars for zh/ch/sh, 1 for other consonants, none for zero-initial syllables like 安) —
- * consuming the initial's length. zh/ch/sh thus stay distinct from z/c/s (low collision); merging
- * them is the fuzzy layer's job ({@code FUZZY_ZH_Z} etc.).
+ * exactly at the query's end mid-surface counts too (prefix / begins semantics). When abbreviation
+ * is on ({@link #initLens} non-empty) a surface also matches by its abbreviation — the pinyin
+ * initial under the identity keyboard (中→{@code zh}, 资→{@code z}; 2 chars for zh/ch/sh, keeping
+ * them distinct from z/c/s) or the first key of the encoded surface otherwise (shuangpin
+ * 中→{@code vs}→{@code v}).
  */
 public final class Phoneme implements Element {
 
     final String[] strs;
-    final int[] initLens; // pinyin-initial length per surface (parallel to strs); 0 = zero-initial
-    final boolean sequence;
+    final int[] initLens; // abbreviation length per surface (parallel to strs); empty = off
 
     /**
      * @param strs the matchable surface strings (canonical first, then variants); never empty
-     * @param sequence whether 简拼 (initials) mode is active
+     * @param initLens abbreviation length per surface (0 = not abbreviable), or empty to disable
      */
-    public Phoneme(String[] strs, boolean sequence) {
+    public Phoneme(String[] strs, int[] initLens) {
         this.strs = strs;
-        this.initLens = sequence ? new int[strs.length] : new int[0];
-        if (sequence) {
-            for (int i = 0; i < strs.length; i++) initLens[i] = PinyinInitials.length(strs[i]);
-        }
-        this.sequence = sequence;
+        this.initLens = initLens;
     }
 
     @Override
     public IndexSet match(String query, int start, boolean partial) {
         IndexSet ret = new IndexSet();
+        boolean abbrev = initLens.length > 0;
         for (int i = 0; i < strs.length; i++) {
             String str = strs[i];
             int size = strCmp(query, str, start);
             if (partial && start + size == query.length()) ret.set(size); // query ends here
             else if (size == str.length()) ret.set(size); // whole surface
-            // 简拼: the syllable's full pinyin initial also matches (中=zh, 资=z), consuming exactly
-            // initLens chars. zh/ch/sh stay distinct from z/c/s (far lower collision than matching
-            // every syllable to one char); fuzzy variants in strs expand the initial set
-            // (中+FUZZY_ZH_Z → {zh, z}), so merging z/zh is the fuzzy layer's job, not 简拼's.
-            if (sequence && initLens[i] > 0 && size >= initLens[i]) ret.set(initLens[i]);
+            if (abbrev && initLens[i] > 0 && size >= initLens[i]) ret.set(initLens[i]);
         }
         return ret;
     }

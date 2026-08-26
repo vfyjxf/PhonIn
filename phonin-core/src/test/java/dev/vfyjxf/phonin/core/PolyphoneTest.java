@@ -25,8 +25,8 @@ import org.junit.jupiter.api.Test;
  * Verifies {@link PolyphoneMode#PRECISE}: context-aware polyphone disambiguation driven by a {@link
  * PolyphoneTable}. Covers the core disambiguation cases, monotonic tightening (a polyphone not in
  * the table behaves as in OFF), composition with abbrev / fuzzy, the {@link
- * PolyphoneTable#load(InputStream)} TSV parser, the {@link Options} build validations, and the
- * accelerator/searcher rejection contract.
+ * PolyphoneTables#load(PhoneticSystem, InputStream)} TSV parser, the {@link Options} build
+ * validations, and the accelerator/searcher rejection contract.
  */
 class PolyphoneTest {
 
@@ -167,7 +167,7 @@ class PolyphoneTest {
     void loadInputStreamParsesSampleTsv() throws IOException {
         PolyphoneTable loaded;
         try (InputStream in = sampleTsv()) {
-            loaded = PolyphoneTables.load(in);
+            loaded = PolyphoneTables.load(PhoneticSystem.mandarin, in);
         }
         Options on = precise(loaded);
         // Reproduces the builder cases
@@ -187,7 +187,7 @@ class PolyphoneTest {
         if (cl == null) cl = PolyphoneTest.class.getClassLoader();
         try (InputStream in = cl.getResourceAsStream("phonin/polyphone/sample-mandarin.tsv")) {
             assertThat(in).as("sample-mandarin.tsv on classpath").isNotNull();
-            PolyphoneTable loaded = PolyphoneTables.load(in);
+            PolyphoneTable loaded = PolyphoneTables.load(PhoneticSystem.mandarin, in);
             Options on = precise(loaded);
             assertThat(phonIn.contains("银行", "yinhang", on)).isTrue();
             assertThat(phonIn.contains("银行", "yinxing", on)).isFalse();
@@ -205,7 +205,7 @@ class PolyphoneTest {
                         + "U+91CD\t重\tzhong4,yao4\n"; // readings count != codepoint count ->
         // skipped
         try (InputStream in = new ByteArrayInputStream(tsv.getBytes(StandardCharsets.UTF_8))) {
-            PolyphoneTable loaded = PolyphoneTables.load(in);
+            PolyphoneTable loaded = PolyphoneTables.load(PhoneticSystem.mandarin, in);
             Options on = precise(loaded);
             assertThat(phonIn.contains("银行", "yinhang", on)).isTrue();
             assertThat(phonIn.contains("一行", "yixing", on)).isTrue();

@@ -3,8 +3,11 @@ package dev.vfyjxf.phonin.data;
 import dev.vfyjxf.phonin.Codepoints;
 import dev.vfyjxf.phonin.Options;
 import dev.vfyjxf.phonin.PhoneticSystem;
+import dev.vfyjxf.phonin.core.util.Resources;
 import dev.vfyjxf.phonin.model.CharEntry;
 import dev.vfyjxf.phonin.model.Reading;
+import it.unimi.dsi.fastutil.ints.Int2ObjectMap;
+import it.unimi.dsi.fastutil.ints.Int2ObjectOpenHashMap;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
@@ -25,7 +28,8 @@ import java.util.concurrent.ConcurrentHashMap;
  *
  * <p>By default nothing is loaded. Call {@link #load(PhoneticSystem...)} or {@link
  * #loadForOptions(Options)} to load the systems you need. Re-loading is a no-op for already-loaded
- * systems.
+ * systems. A system's table is swapped in atomically, so a matcher running concurrently with a
+ * (re)load sees either the old or the new table, never a half-built one.
  */
 public final class PhonInData {
 
@@ -73,25 +77,19 @@ public final class PhonInData {
         }
     }
 
-    public boolean isLoaded(PhoneticSystem system) {
-        return loaded.contains(system);
-    }
-
     private void loadSystem(PhoneticSystem system) {
-        String basePath = RAW_BASE + system.name.toLowerCase();
-        String charPath = basePath + "-char.tsv";
-        try (InputStream in = openResource(charPath)) {
-            if (in == null) return; // system absent from the classpath; do not clear
-            system.clearData();
-            loadCharTable(system, in);
+        String charPath = RAW_BASE + system.name.toLowerCase() + "-char.tsv";
+        try (InputStream in = Resources.open(PhonInData.class, charPath)) {
+            if (in == null) return; // system absent from the classpath; leave existing data alone
+            system.replaceData(readCharTable(system, in));
         } catch (IOException e) {
             throw new RuntimeException("Failed to load " + charPath, e);
         }
-        // Word tables (raw/*-word.tsv) are not consumed by the matcher (Phase 2C).
-        // Skip them to save startup memory.
     }
 
-    private static void loadCharTable(PhoneticSystem system, InputStream in) throws IOException {
+    private static Int2ObjectMap<CharEntry> readCharTable(PhoneticSystem system, InputStream in)
+            throws IOException {
+        Int2ObjectMap<CharEntry> table = new Int2ObjectOpenHashMap<>();
         try (BufferedReader r =
                 new BufferedReader(new InputStreamReader(in, StandardCharsets.UTF_8))) {
             // Canonicalize repeated normalized/syllable strings within this table to avoid
@@ -115,33 +113,15 @@ public final class PhonInData {
                     readings.add(new Reading(system, norm, syllable));
                 }
                 if (!readings.isEmpty()) {
-                    system.putChar(new CharEntry(cp, readings));
+                    table.put(cp, new CharEntry(cp, readings));
                 }
             }
         }
+        return table;
     }
 
     private static String canonical(Map<String, String> pool, String s) {
         String existing = pool.putIfAbsent(s, s);
         return existing == null ? s : existing;
-    }
-
-    /**
-     * Open a classpath resource, trying multiple classloaders. In jar-in-jar environments (NeoForge
-     * jarJar, Fabric include) the context class loader may not see nested jars, so we try the
-     * class's own loader first, then the context loader, then the system loader.
-     */
-    private static InputStream openResource(String path) {
-        ClassLoader[] loaders = {
-            PhonInData.class.getClassLoader(),
-            Thread.currentThread().getContextClassLoader(),
-            ClassLoader.getSystemClassLoader(),
-        };
-        for (ClassLoader cl : loaders) {
-            if (cl == null) continue;
-            InputStream in = cl.getResourceAsStream(path);
-            if (in != null) return in;
-        }
-        return null;
     }
 }

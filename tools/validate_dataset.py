@@ -4,7 +4,8 @@
 Replaces the planned JUnit validation suite now that the pipeline is Python. Exits
 non-zero on any failure. Run after build_dataset.py:
 
-    python3 tools/validate_dataset.py --dir=phonin-data/src/main/resources/phonin
+    python3 tools/validate_dataset.py --dir=phonin-data/src/main/resources/phonin \
+        --keymaps-dir=phonin-mandarin/src/main/resources/phonin
 """
 
 import argparse
@@ -34,8 +35,10 @@ def parse_tsv(path):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--dir", required=True)
+    ap.add_argument("--keymaps-dir", default=None, help="defaults to --dir")
     args = ap.parse_args()
     d = args.dir
+    keymaps_dir = args.keymaps_dir or d
     ok = True
 
     print("[raw tables]")
@@ -117,7 +120,7 @@ def main():
 
     print("[shuangpin keymaps]")
     for scheme in ("flypy", "zrm", "mspy", "pyjj", "abc"):
-        path = os.path.join(d, f"keymaps/shuangpin-{scheme}.tsv")
+        path = os.path.join(keymaps_dir, f"keymaps/shuangpin-{scheme}.tsv")
         rows = parse_tsv(path)
         if len(rows) < 400:
             ok = _fail(f"keymap {scheme}: {len(rows)} rows < 400") and ok

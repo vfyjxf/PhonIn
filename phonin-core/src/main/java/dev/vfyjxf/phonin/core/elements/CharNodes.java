@@ -3,6 +3,7 @@ package dev.vfyjxf.phonin.core.elements;
 import dev.vfyjxf.phonin.Keyboard;
 import dev.vfyjxf.phonin.Options;
 import dev.vfyjxf.phonin.TonePolicy;
+import dev.vfyjxf.phonin.core.util.PinyinInitials;
 import dev.vfyjxf.phonin.fuzzy.FuzzyRule;
 import dev.vfyjxf.phonin.model.CharEntry;
 import dev.vfyjxf.phonin.model.Reading;
@@ -17,6 +18,8 @@ import java.util.Set;
  * so node construction is independent of per-call caches and polyphone segmentation state.
  */
 public final class CharNodes {
+
+    private static final int[] NO_INITLENS = new int[0];
 
     private CharNodes() {}
 
@@ -34,14 +37,29 @@ public final class CharNodes {
     public static CharNode fromReadings(int codepoint, Reading[] readings, Options options) {
         Keyboard kb = options.keyboard();
         boolean sequence = options.sequence();
+        boolean identity = kb.isIdentity();
         List<Element> phonemes = new ArrayList<>(readings.length);
         for (Reading r : readings) {
             String[] strs = surfacesFor(r, kb, options);
             if (strs.length > 0) {
-                phonemes.add(new Phoneme(strs, sequence));
+                phonemes.add(new Phoneme(strs, initLens(strs, sequence, identity)));
             }
         }
         return new CharNode(codepoint, phonemes.toArray(new Element[0]));
+    }
+
+    /**
+     * Abbreviation length per surface: the pinyin initial under the identity keyboard (zh/ch/sh = 2
+     * chars, other consonants = 1, zero-initial = 0), or the first key of the encoded code under a
+     * non-identity keyboard (shuangpin 首键简拼). Empty when 简拼 is off.
+     */
+    private static int[] initLens(String[] strs, boolean sequence, boolean identity) {
+        if (!sequence) return NO_INITLENS;
+        int[] lens = new int[strs.length];
+        for (int i = 0; i < strs.length; i++) {
+            lens[i] = identity ? PinyinInitials.length(strs[i]) : 1;
+        }
+        return lens;
     }
 
     /**

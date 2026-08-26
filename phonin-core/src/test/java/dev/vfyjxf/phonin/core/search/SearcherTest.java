@@ -109,11 +109,10 @@ class SearcherTest {
 
     @Test
     void largeIndexInvariantForcesTrieSelfTuning() {
-        // The engine matches words through their constituent chars, so PhoneticSystem.words() is
-        // not populated; synthesize a large set of multi-char names from a small char alphabet so
-        // many names share prefixes/suffixes — this forces the trie's NDense→NSlice→NMap splits.
-        // The invariant (searcher == direct matcher) is system-agnostic, so synthetic names are a
-        // valid oracle.
+        // The engine matches words through their constituent chars; synthesize a large set of
+        // multi-char names from a small char alphabet so many names share prefixes/suffixes —
+        // this forces the trie's NDense→NSlice→NMap splits. The invariant (searcher == direct
+        // matcher) is system-agnostic, so synthetic names are a valid oracle.
         List<String> names = syntheticNames(4000);
         assertThat(names.size()).as("indexed enough names to stress the trie").isGreaterThan(500);
 

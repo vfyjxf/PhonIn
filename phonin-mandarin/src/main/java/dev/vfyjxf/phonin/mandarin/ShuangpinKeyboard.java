@@ -1,6 +1,7 @@
 package dev.vfyjxf.phonin.mandarin;
 
 import dev.vfyjxf.phonin.Keyboard;
+import dev.vfyjxf.phonin.core.util.Resources;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
@@ -63,6 +64,11 @@ public final class ShuangpinKeyboard implements Keyboard {
         return table.get(tonelessSyllable);
     }
 
+    @Override
+    public String normalizeQuery(String query) {
+        return Keyboard.normalizeLatin(query);
+    }
+
     public String scheme() {
         return scheme;
     }
@@ -70,7 +76,7 @@ public final class ShuangpinKeyboard implements Keyboard {
     private static Map<String, String> load(String scheme) {
         Map<String, String> table = new HashMap<>();
         String path = BASE + scheme + ".tsv";
-        try (InputStream in = openResource(path)) {
+        try (InputStream in = Resources.open(ShuangpinKeyboard.class, path)) {
             if (in == null) {
                 throw new IllegalStateException("shuangpin keymap not found on classpath: " + path);
             }
@@ -96,24 +102,5 @@ public final class ShuangpinKeyboard implements Keyboard {
     @Override
     public String toString() {
         return "shuangpin:" + scheme;
-    }
-
-    /**
-     * Open a classpath resource, trying multiple classloaders. In jar-in-jar environments (NeoForge
-     * jarJar, Fabric include) the context class loader may not see nested jars, so we try the
-     * class's own loader first, then the context loader, then the system loader.
-     */
-    private static InputStream openResource(String path) {
-        ClassLoader[] loaders = {
-            ShuangpinKeyboard.class.getClassLoader(),
-            Thread.currentThread().getContextClassLoader(),
-            ClassLoader.getSystemClassLoader(),
-        };
-        for (ClassLoader cl : loaders) {
-            if (cl == null) continue;
-            InputStream in = cl.getResourceAsStream(path);
-            if (in != null) return in;
-        }
-        return null;
     }
 }

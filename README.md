@@ -13,10 +13,10 @@ PhonIn phonIn = PhonIn.create();
 Options opts = Options.mandarinQuanpin();
 
 phonIn.contains("中国", "zhongguo", opts); // true
-phonIn.contains("中国", "zg", opts);       // true（简拼）
+phonIn.contains("中国", "zg", opts);       // false（简拼默认关闭）
 ```
 
-带模糊规则：
+带简拼与模糊规则：
 
 ```java
 import dev.vfyjxf.phonin.AbbrevPolicy;
@@ -27,14 +27,37 @@ import dev.vfyjxf.phonin.core.fuzzy.FuzzyRules;
 
 PhonIn phonIn = PhonIn.create();
 Options opts = Options.builder(PhoneticSystem.mandarin)
-        .abbrev(AbbrevPolicy.FULL)
+        .abbrev(AbbrevPolicy.INITIALS)
         .addFuzzy(FuzzyRules.fuzzyZhZ)
         .addFuzzy(FuzzyRules.fuzzyAngAn)
         .build();
 
 phonIn.contains("重庆", "zongqing", opts); // true（zh -> z）
-phonIn.contains("重庆", "cq", opts);       // true（简拼）
+phonIn.contains("中国", "zhg", opts);      // true（简拼：zh + g）
+phonIn.contains("中国", "zg", opts);       // true（简拼 + zh -> z）
 ```
+
+## 双拼
+
+`phonin-mandarin` 内置小鹤双拼（`flypy`）、自然码（`zrm`）、微软双拼（`mspy`）、拼音加加（`pyjj`）、智能 ABC（`abc`）五种方案：
+
+```java
+import dev.vfyjxf.phonin.AbbrevPolicy;
+import dev.vfyjxf.phonin.Options;
+import dev.vfyjxf.phonin.PhoneticSystem;
+import dev.vfyjxf.phonin.core.PhonIn;
+import dev.vfyjxf.phonin.mandarin.MandarinOptions;
+
+PhonIn phonIn = PhonIn.create(PhoneticSystem.mandarin);
+Options flypy = MandarinOptions.shuangpin("flypy");
+
+phonIn.matches("中国", "vsgo", flypy); // true
+phonIn.contains("阿", "oa", MandarinOptions.shuangpin("mspy")); // true（零声母：阿 a -> oa）
+```
+
+- 零声母音节按各方案规则编码（小鹤/自然码 `aj`、微软/智能 ABC `oj`、拼音加加 `of`），直接可用。
+- 查询大小写不敏感；`ü` 可用 `v` 输入，归一化由引擎完成。
+- 双拼下的简拼取每个编码的首键：开启 `abbrev(AbbrevPolicy.INITIALS)` 后，中国（小鹤 `vs`+`go`）可用 `vg` 命中。
 
 ## 依赖
 

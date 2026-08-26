@@ -153,26 +153,6 @@ def long_vowel(s):
     return _dedup(out)
 
 
-def ae_e(s):
-    """Korean: merge ae -> e (애 pronounced like 에 by most speakers). User-side merge."""
-    if "ae" in s:
-        return [s.replace("ae", "e")]
-    return []
-
-
-def l_r(s):
-    """Korean: symmetric r <-> l swap. ㄹ is the ONLY Revised Romanization source of both
-    'r' (initial/intervocalic ㄹ, e.g. 란 "ran") and 'l' (final/ㄹㄹ, e.g. 날 "nal"), so a
-    global r/l swap stays confined to ㄹ-derived syllables -- this is the classic L/R input
-    confusion (a user unsure whether to type "ra" or "la" for 라 gets either)."""
-    out = []
-    if "r" in s:
-        out.append(s.replace("r", "l"))
-    if "l" in s:
-        out.append(s.replace("l", "r"))
-    return _dedup(out)
-
-
 # --------------------------------------------------------------------------- registry
 
 

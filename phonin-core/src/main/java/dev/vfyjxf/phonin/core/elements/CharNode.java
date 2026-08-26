@@ -30,10 +30,6 @@ public final class CharNode implements Element {
         return ret;
     }
 
-    public int codepoint() {
-        return codepoint;
-    }
-
     /**
      * A codepoint with no dataset entry: matches only its literal char.
      */

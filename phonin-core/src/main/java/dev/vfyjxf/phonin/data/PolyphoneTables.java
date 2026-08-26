@@ -22,18 +22,18 @@ public final class PolyphoneTables {
     private PolyphoneTables() {}
 
     /**
-     * Load a table from a TSV file (UTF-8).
+     * Load a table from a TSV file (UTF-8), binding readings to the given system.
      */
-    public static PolyphoneTable load(Path path) throws IOException {
+    public static PolyphoneTable load(PhoneticSystem system, Path path) throws IOException {
         try (InputStream in = Files.newInputStream(path)) {
-            return load(in);
+            return load(system, in);
         }
     }
 
     /**
-     * Load a table from a TSV stream (UTF-8).
+     * Load a table from a TSV stream (UTF-8), binding readings to the given system.
      */
-    public static PolyphoneTable load(InputStream in) throws IOException {
+    public static PolyphoneTable load(PhoneticSystem system, InputStream in) throws IOException {
         PolyphoneTable.Builder b = null;
         try (BufferedReader r =
                 new BufferedReader(new InputStreamReader(in, StandardCharsets.UTF_8))) {
@@ -46,7 +46,7 @@ public final class PolyphoneTables {
                 if (cps == null || cps.length == 0) continue;
                 String[] readings = c[2].split(",");
                 if (readings.length != cps.length) continue; // count must equal codepoint count
-                if (b == null) b = PolyphoneTable.builder(PhoneticSystem.mandarin);
+                if (b == null) b = PolyphoneTable.builder(system);
                 String[] trimmed = new String[readings.length];
                 for (int i = 0; i < readings.length; i++) {
                     trimmed[i] = readings[i].trim();
@@ -54,13 +54,14 @@ public final class PolyphoneTables {
                 b.add(cps, trimmed);
             }
         }
-        return b == null ? PolyphoneTable.builder(PhoneticSystem.mandarin).build() : b.build();
+        return b == null ? PolyphoneTable.builder(system).build() : b.build();
     }
 
     /**
-     * Save a table to a TSV file (UTF-8), in the format {@link #load(Path)} reads.
+     * Save a table to a TSV file (UTF-8), in the format {@link #load(PhoneticSystem, Path)} reads.
+     * {@code source} is written into the optional provenance column.
      */
-    public static void save(PolyphoneTable table, Path path) throws IOException {
+    public static void save(PolyphoneTable table, Path path, String source) throws IOException {
         Files.createDirectories(path.getParent());
         try (BufferedWriter w =
                 new BufferedWriter(
@@ -87,7 +88,7 @@ public final class PolyphoneTables {
                 w.write('\t');
                 w.write(readings.toString());
                 w.write('\t');
-                w.write("MOONBILSTM");
+                w.write(source);
                 w.write('\n');
             }
         }

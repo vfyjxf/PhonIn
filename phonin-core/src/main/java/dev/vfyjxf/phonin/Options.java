@@ -96,15 +96,13 @@ public final class Options {
     }
 
     /**
-     * Abbreviation (initials) is active only when requested, supported by the system, AND the
-     * keyboard is the system-native one. Undefined in MULTI mode (no single system), so disabled
-     * there.
+     * Abbreviation (简拼) is active when requested AND supported by the system. Under the identity
+     * keyboard the abbreviation is the pinyin initial (中→{@code zh}); under a non-identity
+     * keyboard it is the first key of the encoded surface (shuangpin 中→{@code vs}→{@code v}).
+     * Undefined in MULTI mode (no single system), so disabled there.
      */
     public boolean sequence() {
-        return router == null
-                && abbrev == AbbrevPolicy.INITIALS
-                && system.abbreviable()
-                && keyboard.isIdentity();
+        return router == null && abbrev == AbbrevPolicy.INITIALS && system.abbreviable();
     }
 
     /**

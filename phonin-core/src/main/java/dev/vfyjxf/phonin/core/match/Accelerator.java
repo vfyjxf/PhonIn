@@ -14,22 +14,19 @@ import java.util.List;
  * query reuses the phoneme-match computation. Adapted from {@code
  * me.towdium.pinin.utils.Accelerator} for PhonIn's model.
  *
- * <p>The cache is keyed by <em>codepoint</em> (PhonIn has no Pinyin tier; the matchable unit is the
- * codepoint's {@link CharNode}), stored per query-offset. Every lookup goes through {@link
- * MatchContext#charNode(int)} + {@link CharNode#match}, so fuzzy / keyboard / tone / shuangpin
- * policy is <em>identical</em> to the direct {@link Matcher} — the {@link
- * dev.vfyjxf.phonin.core.AcceleratedQuery} and {@link dev.vfyjxf.phonin.core.search.Searcher} paths cannot
- * diverge from one-off matching because they share this code path.
+ * <p>Every lookup goes through {@link MatchContext#charNode(int)} + {@link CharNode#match}, so
+ * fuzzy / keyboard / tone / shuangpin policy is <em>identical</em> to the direct {@link Matcher} —
+ * the {@link dev.vfyjxf.phonin.core.AcceleratedQuery} and {@link
+ * dev.vfyjxf.phonin.core.search.Searcher} paths cannot diverge from one-off matching because they
+ * share this code path. Backtracking itself lives in {@link Backtrack}.
  *
- * <p>Names are presented as a {@link Provider} (a shared codepoint pool, or a single {@code
- * int[]}), walked position-by-position by {@link #check}. Cached {@link IndexSet}s are read-only
- * (callers use only {@code traverse} / {@code get}, never {@code merge}), so one instance is shared
- * safely.
+ * <p>Cached {@link IndexSet}s are read-only (callers use only {@code get} / the raw bitmask), so
+ * one instance is shared safely. Not thread-safe.
  */
 public final class Accelerator {
 
     /**
-     * A codepoint sequence the accelerator walks by position (a name pool, or one {@code int[]}).
+     * A codepoint sequence the accelerator walks by position (a shared name pool).
      */
     public interface Provider {
         /**
@@ -53,6 +50,9 @@ public final class Accelerator {
     // trie calls acc.get once per child node visited, so this stays a tight, allocation-free
     // lookup.
     private final List<Int2ObjectOpenHashMap<IndexSet>> cache = new ArrayList<>();
+
+    private final PoolSource poolSource = new PoolSource();
+    private final ArraySource arraySource = new ArraySource();
 
     public Accelerator(Options options, boolean partial) {
         if (options.polyphoneMode() == PolyphoneMode.PRECISE) {
@@ -145,63 +145,65 @@ public final class Accelerator {
     }
 
     /**
-     * The recursive backtracker, structurally identical to {@link Matcher#check} (same boundary /
-     * last-element / {@link IndexSet#traverse} logic), but reading cached IndexSets. Exposed so the
-     * {@link dev.vfyjxf.phonin.core.search.TreeSearcher} trie can resume matching from a partial query
-     * offset.
+     * Resume matching from a partial query offset; exposed for the {@link
+     * dev.vfyjxf.phonin.core.search.TreeSearcher} trie.
      */
     public boolean check(int queryOff, Provider p, int start) {
-        if (queryOff == query.length()) return partial || p.end(start);
-        if (p.end(start)) return false;
-        IndexSet s = get(p.codepoint(start), queryOff);
-        if (p.end(start + 1)) {
-            int need = query.length() - queryOff;
-            return s.get(need);
-        }
-        int v = s.value();
-        int i = 0;
-        while (v != 0) {
-            if ((v & 0x1) == 0x1 && check(queryOff + i, p, start + 1)) return true;
-            v >>= 1;
-            i++;
+        poolSource.p = p;
+        return Backtrack.run(poolSource, start, query, queryOff, partial);
+    }
+
+    //endregion
+    //region int[] entry points (AcceleratedQuery / SimpleSearcher)
+
+    public boolean contains(int[] name) {
+        if (query.isEmpty()) return true;
+        arraySource.a = name;
+        for (int i = 0; i < name.length; i++) {
+            if (Backtrack.run(arraySource, i, query, 0, partial)) return true;
         }
         return false;
     }
 
-    //endregion
-    //region int[] convenience (AcceleratedQuery / SimpleSearcher)
-
-    public boolean contains(int[] name) {
-        return contains(new ArrayProvider(name), 0);
-    }
-
     public boolean begins(int[] name) {
-        return begins(new ArrayProvider(name), 0);
+        if (name.length == 0) return query.isEmpty();
+        arraySource.a = name;
+        return Backtrack.run(arraySource, 0, query, 0, partial);
     }
 
     public boolean matches(int[] name) {
-        return matches(new ArrayProvider(name), 0);
+        if (name.length == 0) return query.isEmpty();
+        arraySource.a = name;
+        return Backtrack.run(arraySource, 0, query, 0, partial);
     }
 
-    /**
-     * A {@link Provider} over a bare {@code int[]} (end = i >= length).
-     */
-    private static final class ArrayProvider implements Provider {
-        private final int[] cps;
-
-        ArrayProvider(int[] cps) {
-            this.cps = cps;
-        }
-
-        @Override
-        public boolean end(int i) {
-            return i >= cps.length;
-        }
-
-        @Override
-        public int codepoint(int i) {
-            return cps[i];
-        }
-    }
     //endregion
+
+    private final class PoolSource implements Backtrack.Source {
+        Provider p;
+
+        @Override
+        public boolean end(int pos) {
+            return p.end(pos);
+        }
+
+        @Override
+        public IndexSet matchAt(int pos, int queryOff) {
+            return get(p.codepoint(pos), queryOff);
+        }
+    }
+
+    private final class ArraySource implements Backtrack.Source {
+        int[] a;
+
+        @Override
+        public boolean end(int pos) {
+            return pos >= a.length;
+        }
+
+        @Override
+        public IndexSet matchAt(int pos, int queryOff) {
+            return get(a[pos], queryOff);
+        }
+    }
 }

@@ -4,7 +4,6 @@ import dev.vfyjxf.phonin.CodepointRouter;
 import dev.vfyjxf.phonin.Options;
 import dev.vfyjxf.phonin.PhoneticSystem;
 import dev.vfyjxf.phonin.PolyphoneMode;
-import dev.vfyjxf.phonin.PolyphoneTable;
 import dev.vfyjxf.phonin.core.elements.CharNode;
 import dev.vfyjxf.phonin.core.elements.CharNodes;
 import dev.vfyjxf.phonin.model.CharEntry;
@@ -23,19 +22,18 @@ public final class MatchContext {
     final Options options;
     final PhoneticSystem system; // non-null in single-system mode; null in MULTI
     final CodepointRouter router; // non-null in MULTI; null in single-system
-    final boolean sequence;
 
     private final Int2ObjectOpenHashMap<CharNode> cache = new Int2ObjectOpenHashMap<>();
 
-    // PRECISE-only: the per-position forced readings for the current text, lazily segmented once.
+    // PRECISE-only: the per-position forced readings for the current text, lazily segmented once
+    // per text (keyed by the text array reference).
     private String[] polyphoneSegments;
-    private int polyphoneTextKey = 0; // identity (System.identityHashCode) of the segmented text
+    private int[] polyphoneText;
 
     public MatchContext(Options options) {
         this.options = options;
         this.system = options.system();
         this.router = options.router();
-        this.sequence = options.sequence();
     }
 
     public Options options() {
@@ -90,10 +88,9 @@ public final class MatchContext {
      * The forced normalized reading for {@code position}, segmenting {@code text} once.
      */
     private String forcedReading(int[] text, int position) {
-        if (polyphoneSegments == null || polyphoneTextKey != System.identityHashCode(text)) {
-            PolyphoneTable table = options.polyphoneTable();
-            polyphoneSegments = table.segment(text);
-            polyphoneTextKey = System.identityHashCode(text);
+        if (polyphoneText != text) {
+            polyphoneSegments = options.polyphoneTable().segment(text);
+            polyphoneText = text;
         }
         return polyphoneSegments[position];
     }

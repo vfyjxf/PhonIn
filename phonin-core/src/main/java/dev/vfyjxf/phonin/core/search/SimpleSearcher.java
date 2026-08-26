@@ -45,7 +45,7 @@ public final class SimpleSearcher<T> implements Searcher<T> {
 
     @Override
     public List<T> search(String query) {
-        acc.search(query);
+        acc.search(options.keyboard().normalizeQuery(query));
         List<T> ret = new ArrayList<>();
         for (int i = 0; i < objs.size(); i++) {
             if (tester.test(names.get(i))) ret.add(objs.get(i));

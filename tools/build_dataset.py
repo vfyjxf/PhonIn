@@ -44,9 +44,13 @@ def main():
     ap.add_argument("--max-disagreement", type=float, default=0.02)
     ap.add_argument("--build-timestamp", default="unknown")
     ap.add_argument("--skip-jmdict", action="store_true", help="skip JMDict (large download)")
+    ap.add_argument("--keymaps-out", default=None,
+                    help="where to emit shuangpin keymaps (default: --out; excluded from the "
+                         "manifest when different)")
     args = ap.parse_args()
 
     out_dir = os.path.abspath(args.out)
+    keymaps_out = os.path.abspath(args.keymaps_out) if args.keymaps_out else out_dir
     cache_dir = os.path.abspath(args.cache)
     os.makedirs(out_dir, exist_ok=True)
     print(f"PhonIn dataset generator (out={out_dir})")
@@ -125,7 +129,9 @@ def main():
     print("[generate cases]")
     files += cases.gen_all(ds, out_dir)
     print("[emit keymaps]")
-    files += emit.write_shuangpin_keymaps(ds, out_dir)
+    keymap_files = emit.write_shuangpin_keymaps(ds, keymaps_out)
+    if keymaps_out == out_dir:
+        files += keymap_files
     stats["caseFiles"] = len([f for f in files if "/generated/" in f[0] or f[0].startswith("generated/")])
     stats["totalCases"] = sum(f[1] for f in files if "/generated/" in f[0] or f[0].startswith("generated/"))
 

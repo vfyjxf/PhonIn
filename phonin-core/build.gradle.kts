@@ -82,6 +82,9 @@ tasks.test {
     systemProperty("phonin.case.sample", sample.toString())
     // Bridge the perf-survey flag to the test JVM (PerfBenchmarkTest is skipped unless set).
     systemProperty("phonin.bench", System.getProperty("phonin.bench", "false"))
+    // The generated corpus is gitignored and huge (~860MB): stream it from the source dir
+    // instead of copying it through processTestResources. Absent -> CaseRunnerTest skips it.
+    classpath += files(rootProject.file("phonin-data/src/main/resources"))
     // Allow the JSONL case streaming test + the 1M-name huge-scale benchmark enough memory.
     jvmArgs("-Xmx4g")
 }

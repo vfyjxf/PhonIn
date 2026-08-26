@@ -56,13 +56,6 @@ public final class PolyphoneTable {
     }
 
     /**
-     * The longest word in the table, in codepoints (0 for an empty table).
-     */
-    public int maxWordLen() {
-        return maxWordLen;
-    }
-
-    /**
      * Greedy longest-match segmentation of {@code text} against this table.
      *
      * <p>Returns an array of length {@code text.length}; element {@code i} is the forced normalized
